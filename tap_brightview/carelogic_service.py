@@ -23,9 +23,18 @@ USER = json.loads(os.getenv("brightview"))['user']
 PASSWORD = json.loads(os.getenv("brightview"))['password']
 
 
-conn = jaydebeapi.connect(
+client = jaydebeapi.connect(
     "com.simba.hive.jdbc.HS2Driver",
     "bdgw.qualifacts.org:443/brightview_prod;ssl=1;transportMode=http;httpPath=gateway/default/llap",
     {'user': USER, 'password': PASSWORD},
     "./HiveJDBC42.jar",
 )
+
+sql = client.cursor()
+
+
+def query_database():
+    query = sql.execute("select * from CUSTOMER")
+
+    return query
+
