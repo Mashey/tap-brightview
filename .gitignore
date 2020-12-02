@@ -1,0 +1,8 @@
+.env
+.vscode
+*__pycache__
+.pytest_cache
+tests/cassettes
+.coverage
+*.DS_Store
+tap_brightview.egg-info
