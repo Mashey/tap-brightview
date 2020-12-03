@@ -34,7 +34,10 @@ sql = client.cursor()
 
 
 def query_database():
-    query = sql.execute("select * from CUSTOMER")
+    query = sql.execute("SELECT * FROM customer LIMIT 500")
 
     return query
 
+
+sql.close()
+client.close()
