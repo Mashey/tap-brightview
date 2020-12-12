@@ -44,4 +44,3 @@ test = 'wow'
 
 sql.close()
 client.close()
- 
