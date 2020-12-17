@@ -35,12 +35,15 @@ sql = client.cursor()
 
 
 def query_database():
-    query = sql.execute("SELECT * FROM customer LIMIT 500")
+    query = sql.execute("SELECT * FROM activity LIMIT 10")
 
     return query
 
+stop1 = 'stop'
 
-test = 'wow'
+test = query_database()
+
+stop2 = 'stop'
 
 sql.close()
 client.close()
