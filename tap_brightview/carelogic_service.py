@@ -35,15 +35,35 @@ sql = client.cursor()
 
 
 def query_database():
-    # sql.execute("SELECT * FROM activity LIMIT 10")
+    sql.execute("SELECT * FROM activity LIMIT 10")
     # sql.execute("SHOW CREATE TABLE activity")
-    # sql.execute("DESCRIBE Formatted brightview_prod.activity")
-    sql.execute("SHOW TABLES IN brightview_prod")
+    # sql.execute("SHOW TABLES IN brightview_prod")
     query = sql.fetchall()
+
 
     return query
 
-test = query_database()
+
+def parse_table_schema(table=None):
+    sql.execute("DESCRIBE FORMATTED brightview_prod.activity")
+    query = sql.fetchall()
+    table_columns = parse_formatted_table(query)
+
+    return table_columns
+
+
+def parse_formatted_table(table):
+    end_data_index = table.index(('', None, None))
+    clean_table = table[1:end_data_index]
+    parsed_table = []
+
+    for row in clean_table:
+        parsed_table.append([row[0], row[1]])
+    
+    return parsed_table
+
+
+test = parse_table_schema()
 
 stop = 'stop'
 
