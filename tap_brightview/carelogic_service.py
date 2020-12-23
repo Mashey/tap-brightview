@@ -56,11 +56,22 @@ def find_database_tables():
     return query
 
 
-def parse_table_schema(table=None):
-    sql.execute("DESCRIBE FORMATTED brightview_prod.activity")
-    query = sql.fetchall()
-    table_columns = parse_formatted_table(query)
+def create_table_list():
+    with open('./db_tables.txt') as tables:
+        table_data = tables.readlines()
 
+        return table_data
+
+
+def parse_table_schema():
+    table_list = create_table_list()
+
+    for table in table_list:
+        sql.execute(f"DESCRIBE FORMATTED brightview_prod.{table}")
+        query = sql.fetchall()
+        table_columns = parse_formatted_table(query)
+
+    # From schema_builder package add: create_table_dict, create_json_schema_dict, create_json_schema_file
     return table_columns
 
 
