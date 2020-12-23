@@ -7,3 +7,5 @@ tests/cassettes
 *.DS_Store
 tap_brightview.egg-info
 HiveJDBC42.jar
+activity_table_ddl.txt
+db_tables.txt
