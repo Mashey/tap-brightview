@@ -44,6 +44,18 @@ def query_database():
     return query
 
 
+def find_database_tables():
+    # I want to find a way to show only the base tables in the database
+    # 'SHOW TABLES' returns all tables and views. I want to exclude views.
+    # This command for MySQL looked promising but failed: <show full tables where Table_Type = 'BASE TABLE'>
+
+    # sql.execute("show full tables where Table_Type = 'BASE TABLE'")
+    sql.execute("SHOW TABLES")
+    query = sql.fetchall()
+
+    return query
+
+
 def parse_table_schema(table=None):
     sql.execute("DESCRIBE FORMATTED brightview_prod.activity")
     query = sql.fetchall()
@@ -63,7 +75,8 @@ def parse_formatted_table(table):
     return parsed_table
 
 
-test = parse_table_schema()
+# db_tables = find_database_tables()
+table_schema = parse_table_schema()
 
 stop = 'stop'
 
