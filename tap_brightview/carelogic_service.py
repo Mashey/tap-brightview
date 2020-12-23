@@ -35,7 +35,10 @@ sql = client.cursor()
 
 
 def query_database():
-    sql.execute("SELECT * FROM activity LIMIT 10")
+    # sql.execute("SELECT * FROM activity LIMIT 10")
+    # sql.execute("SHOW CREATE TABLE activity")
+    # sql.execute("DESCRIBE Formatted brightview_prod.activity")
+    sql.execute("SHOW TABLES IN brightview_prod")
     query = sql.fetchall()
 
     return query
