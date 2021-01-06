@@ -63,8 +63,9 @@ def parse_table_schema():
         sql.execute(f"DESCRIBE FORMATTED brightview_prod.{table}")
         query = sql.fetchall()
         table_columns = parse_formatted_table(query)
+        # From the Schema Builder package import build_json_schema
+        # return build_json_schema('table', data=table_columns, table_name=table)
 
-    # From schema_builder package add: create_table_dict, create_json_schema_dict, create_json_schema_file
     return table_columns
 
 
@@ -85,10 +86,10 @@ def parse_formatted_table(table_data):
     clean_table_data = table_data[1:end_data_index]
     parsed_table_data = []
 
-    for row in clean_table:
-        parsed_table.append([row[0], row[1]])
+    for row in clean_table_data:
+        parsed_table_data.append([row[0], row[1]])
     
-    return parsed_table
+    return parsed_table_data
 
 
 # db_tables = find_database_tables()
