@@ -21,8 +21,8 @@ pp = pprint.PrettyPrinter(indent=4, depth=3)
 
 # The code below is for testing with Pytest.
 load_dotenv()
-USER = json.loads(os.getenv("brightview"))['user']
-PASSWORD = json.loads(os.getenv("brightview"))['password']
+USER = os.getenv("USER")
+PASSWORD = os.getenv("PASSWORD")
 
 
 client = jaydebeapi.connect(
