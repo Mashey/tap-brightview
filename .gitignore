@@ -9,4 +9,5 @@ tap_brightview.egg-info
 HiveJDBC42.jar
 activity_table_ddl.txt
 db_tables.txt
+test_tables.txt
 poetry.lock
