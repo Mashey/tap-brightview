@@ -9,6 +9,7 @@ from datetime import date, datetime, timezone, timedelta
 from collections import defaultdict
 import jaydebeapi
 import jpype
+from schema_builder import build_json_schema
 
 
 pp = pprint.PrettyPrinter(indent=4, depth=3)
