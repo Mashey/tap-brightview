@@ -9,6 +9,7 @@ from collections import defaultdict
 import jaydebeapi
 import jpype
 from schema_builder import build_json_schema
+from tap_brightview.helpers import create_table_list
 
 
 pp = pprint.PrettyPrinter(indent=4, depth=3)
@@ -35,27 +36,18 @@ sql = client.cursor()
 
 
 def query_database():
-    sql.execute("SELECT * FROM activity LIMIT 10")
-    # sql.execute("SHOW CREATE TABLE activity")
-    # sql.execute("SHOW TABLES IN brightview_prod")
+    sql.execute(
+        'SELECT * ' +
+        'FROM activity ' +
+        'LIMIT 0,10'
+    )
+
     query = sql.fetchall()
 
     return query
 
 
-def find_database_tables():
-    # I want to find a way to show only the base tables in the database
-    # 'SHOW TABLES' returns all tables and views. I want to exclude views.
-    # This command for MySQL looked promising but failed: <show full tables where Table_Type = 'BASE TABLE'>
-
-    # sql.execute("show full tables where Table_Type = 'BASE TABLE'")
-    sql.execute("SHOW TABLES")
-    query = sql.fetchall()
-
-    return query
-
-
-def parse_table_schema():
+def create_json_schemas():
     table_list = create_table_list('db_tables.txt')
 
     for table in table_list:
@@ -66,23 +58,6 @@ def parse_table_schema():
 
     return 'JSON Schemas created successfully.'
 
-
-def create_table_list(tables_path):
-    with open(f'{tables_path}') as tables:
-        table_data = tables.readlines()
-
-    clean_data = []
-
-    for row in table_data:
-        clean_data.append(row.rstrip())
-
-    return clean_data
-
-
-# db_tables = find_database_tables()
-table_schema = create_table_list('db_tables.txt')
-
-stop = 'stop'
 
 sql.close()
 client.close()
