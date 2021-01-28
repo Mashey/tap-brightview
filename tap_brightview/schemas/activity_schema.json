@@ -1,0 +1,332 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "block_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "billable": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "overlap": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mark_future": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "move_timesheet": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_group_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "timesheet_cat_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_unit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_frequency": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_unit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_frequency": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gl_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unit_calculation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "req_refer_phy": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ndc_code_num": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "tos": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "nearest_unit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bonus_min": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "core_service_code_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "modality_code_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "crs_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "non_bill_min_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_add_appt_stat_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "darts_include_in_count": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "is_video_counseling": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "darts_activity_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "axis": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cpt_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transportation_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ndc_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mobile_exportable_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "overlap_same_activity": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "multiple_staff_entry_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_time_types_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "direct_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "documentation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "travel_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_contract_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}
