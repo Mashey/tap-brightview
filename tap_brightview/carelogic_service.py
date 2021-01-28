@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 import os
 import pprint
 import singer
-from singer import Transformer
 from datetime import date, datetime, timezone, timedelta
 from collections import defaultdict
 import jaydebeapi
