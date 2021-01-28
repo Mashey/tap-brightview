@@ -1,14 +1,7 @@
-import requests
-import json
 from dotenv import load_dotenv
 import os
-import singer
-from datetime import date, datetime, timezone, timedelta
-from collections import defaultdict
 import jaydebeapi
 import jpype
-from schema_builder import build_json_schema
-from tap_brightview.helpers import create_table_list
 
 
 # This code is for production.
