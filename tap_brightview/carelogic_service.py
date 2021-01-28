@@ -2,7 +2,6 @@ import requests
 import json
 from dotenv import load_dotenv
 import os
-import pprint
 import singer
 from datetime import date, datetime, timezone, timedelta
 from collections import defaultdict
@@ -11,8 +10,6 @@ import jpype
 from schema_builder import build_json_schema
 from tap_brightview.helpers import create_table_list
 
-
-pp = pprint.PrettyPrinter(indent=4, depth=3)
 
 # This code is for production.
 # args = singer.utils.parse_args(["user", "password"])
