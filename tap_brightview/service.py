@@ -33,33 +33,7 @@ def create_client():
     return client
 
 
-client = create_client()
-sql = client.cursor()
+def create_sql_cursor(client):
+    sql = client.cursor()
 
-
-def query_database():
-    sql.execute(
-        'SELECT * ' +
-        'FROM activity ' +
-        'LIMIT 0,10'
-    )
-
-    query = sql.fetchall()
-
-    return query
-
-
-def create_json_schemas():
-    table_list = create_table_list('db_tables.txt')
-
-    for table in table_list:
-        sql.execute(f"DESCRIBE FORMATTED brightview_prod.{table}")
-        query = sql.fetchall()
-
-        build_json_schema('table', data=query, table_name=table)
-
-    return 'JSON Schemas created successfully.'
-
-
-sql.close()
-client.close()
+    return sql
