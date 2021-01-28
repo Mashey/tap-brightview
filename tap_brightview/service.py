@@ -22,13 +22,18 @@ USER = os.getenv("USER")
 PASSWORD = os.getenv("PASSWORD")
 
 
-client = jaydebeapi.connect(
-    "com.simba.hive.jdbc.HS2Driver",
-    "jdbc:hive2://bdgw.qualifacts.org:443/brightview_prod;ssl=1;transportMode=http;httpPath=gateway/default/llap",
-    [USER, PASSWORD],
-    "./HiveJDBC42.jar",
-)
+def create_client():
+    client = jaydebeapi.connect(
+        "com.simba.hive.jdbc.HS2Driver",
+        "jdbc:hive2://bdgw.qualifacts.org:443/brightview_prod;ssl=1;transportMode=http;httpPath=gateway/default/llap",
+        [USER, PASSWORD],
+        "./HiveJDBC42.jar",
+    )
 
+    return client
+
+
+client = create_client()
 sql = client.cursor()
 
 
