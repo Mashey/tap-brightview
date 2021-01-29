@@ -1,0 +1,98 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_liability_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "max_month_liability_amt": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "total_dependents": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "total_adjusted_income": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

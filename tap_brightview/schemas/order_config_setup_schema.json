@@ -1,0 +1,110 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "order_config_setup_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_module_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "start_admin_order_status_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_admin_order_status_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_doc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

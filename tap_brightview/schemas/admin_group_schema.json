@@ -1,0 +1,164 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "admin_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "asst_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "phone_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "session_length": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "topic": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "default_act_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_bonus_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

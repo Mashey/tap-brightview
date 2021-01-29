@@ -1,0 +1,194 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "person_name_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "person_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "middle_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "maiden_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "title_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "suffix_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_name_cap": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "middle_name_cap": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "maiden_name_cap": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name_cap": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_name_soundex": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "middle_name_soundex": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "maiden_name_soundex": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name_soundex": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "entity_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "entity_name_soundex": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

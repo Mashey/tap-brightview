@@ -1,0 +1,140 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "erx_pharmacy_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ncpdp_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "street1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "street2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cross_street": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "city": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "state": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "zip": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "open_24_hour": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "level_3": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "electronic": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "pbm_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

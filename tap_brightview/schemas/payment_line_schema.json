@@ -1,0 +1,188 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "payment_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payment_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payment_entry_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_item_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "allowed_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "approval": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "need_adj": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "adj_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "adj_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "adj_reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "adj_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "adj_transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reversed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "next_action_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "copay_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "takeback_payment_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "trans_reason_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_next_payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

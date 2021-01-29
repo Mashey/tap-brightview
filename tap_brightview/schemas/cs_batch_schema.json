@@ -1,0 +1,128 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "cs_batch_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ntier_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "run_by_user_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "min_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "run_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_expect_bill": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_payer_claim": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_detail": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_aging": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_colln_claim": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "auto_process_rule_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

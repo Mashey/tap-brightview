@@ -1,0 +1,104 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "activity_procedure_addon_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_procedure_matrix_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_addon_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "addon_procedure_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "addon_procedure_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "min_minutes": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "max_minutes": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_unit": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "bill_frequency": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unit_calculation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "nearest_unit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "unit_day_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

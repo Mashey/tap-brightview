@@ -1,0 +1,68 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_271_reference_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_subscriber_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_eligible_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ref_id_qual": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ref_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "document_signature_pad_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "other_guarantor": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "logged_in_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "captured_incomplete": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "collect_on_mobile_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mobile_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "unable_to_collect_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unable_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sync_to_mobile_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

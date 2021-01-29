@@ -1,0 +1,62 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "clinician_allergy_entry_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "allergy_entry_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "fdb_allergy_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "clinician_objid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "claim_diag_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "code_system_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "code_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "present_on_admission": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diag_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "relevant_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

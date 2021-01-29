@@ -1,0 +1,62 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_835_adj_org_matrix_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_835_adj_org_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_835_adjustment_reason_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "trans_reason_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_action": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

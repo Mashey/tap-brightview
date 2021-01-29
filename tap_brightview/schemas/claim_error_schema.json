@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "claim_item_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_rule_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fixed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "override_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "override_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_error_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

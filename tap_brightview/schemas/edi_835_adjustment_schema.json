@@ -1,0 +1,74 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_835_adjustment_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_835_service_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "adj_group_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "adj_reason_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "adj_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "adj_units": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "claim_action": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

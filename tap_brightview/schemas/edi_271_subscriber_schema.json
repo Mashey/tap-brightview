@@ -1,0 +1,98 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_271_subscriber_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "trace_type_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "trace_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "orig_company_identifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "first_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "middle_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "subscriber_id_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "receiver_id_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

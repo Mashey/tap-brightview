@@ -1,0 +1,236 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "activity_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_log_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "billed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "estimated_copay": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "status_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "status_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discontinuous_svc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "actual_begin_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "actual_end_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "actual_units": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "client_episode_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_doc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "sys_gen": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "discontinuous": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reversed_activity_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "other_location_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "non_billable_mins": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "method_of_delivery_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cancellation_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "video_counseling_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "passes_issued": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "after_hours_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "periodic_schedule_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_requirement_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

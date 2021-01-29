@@ -1,0 +1,62 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "payer_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "sender_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gl_code_payer_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_org_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

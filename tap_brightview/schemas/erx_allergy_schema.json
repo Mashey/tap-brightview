@@ -1,0 +1,182 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "erx_allergy_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "allergy_entry_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "allergen_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "drug_external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "drug_ndcid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "drug_fdb_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "allergy_grp_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "allergy_grp_deleted": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "allergy_grp_external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "allergy_grp_fdb_spec_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "allergy_grp_fdb_cross_sens_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reaction": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "onset_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_modified_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_modified_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments_truncated": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ingredient_rxnormid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ingredient_rxnormid_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "severity_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "severity_snomed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

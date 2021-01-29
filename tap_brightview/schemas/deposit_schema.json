@@ -1,0 +1,128 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "deposit_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "account_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "control_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "control_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "control_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cash_sheet_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_835_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edi_835_transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "check_no": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "grant_payment_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

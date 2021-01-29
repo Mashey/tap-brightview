@@ -1,0 +1,338 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "medication_entry_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "other_med": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "delivery_method_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dosage": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "frequency": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "refills": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "route_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "blood_work": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "blood_work_freq": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "physician": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "internal": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "overdose_danger": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "narrative": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "spec_instructions": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "disc_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "disc_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "disc_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "super_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "super_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "med_education": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "copy_medication_entry_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "consent_needed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mod_med_consent_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "erx_medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "adtl_data": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provider_display_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments_truncated": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "acknowledged_ind": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "show_emar_ind": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "acknowledged_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mar_dosage_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ord_medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "session_organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

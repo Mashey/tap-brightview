@@ -1,0 +1,122 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "treatment_plan_grid_lab_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "treatment_plan_grid_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "lab_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "test_performed_cmp": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "test_performed_val": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "test_result_cmp": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "test_result_txt_value": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "test_result_low_value": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "test_result_high_value": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

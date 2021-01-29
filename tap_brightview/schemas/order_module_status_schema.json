@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "order_module_status_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "status_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "current_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "order_module_state_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "admin_order_status_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

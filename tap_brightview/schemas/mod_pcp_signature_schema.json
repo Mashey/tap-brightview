@@ -1,0 +1,206 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_pcp_signature_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "responsible": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "relationship_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "resp1_signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "resp1_signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "agency_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "resp2_signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "resp2_signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "team_relationship1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "team_relationship2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "team_relationship3": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "team_relationship4": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "direct_contact": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reviewed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_signature1_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_signature2_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "alert_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "person_self_signature_dt": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "person_other_signature_dt": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "team_signature1_dt": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "team_signature2_dt": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "team_signature3_dt": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "team_signature4_dt": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

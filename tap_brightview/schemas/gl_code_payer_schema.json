@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "gl_code_payer_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "gl_code_date_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "revenue": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "receivable": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "denial": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "allowance": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transfer": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "activity_procedure_clm_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_procedure_matrix_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_unit": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "bill_freq": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unit_calc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "nearest_unit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "standard_fee": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

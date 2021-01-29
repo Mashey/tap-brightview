@@ -1,0 +1,104 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "claim_item_edit_audit_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_item_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "original": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "master_modifier1_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "master_modifier2_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "master_modifier3_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "master_modifier4_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ordered_by_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

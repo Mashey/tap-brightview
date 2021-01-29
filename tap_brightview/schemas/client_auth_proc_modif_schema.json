@@ -1,0 +1,56 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_auth_proc_modif_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_auth_procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "master_modifier_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

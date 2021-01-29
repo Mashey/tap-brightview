@@ -1,0 +1,68 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "document_audit_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "action": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

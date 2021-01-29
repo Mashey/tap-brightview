@@ -1,0 +1,350 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "person_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "race_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ethnicity_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tribe_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "hispanic": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_language_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "other_language_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "need_interpreter": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "education_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "education_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "employment_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "occupation_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "job_title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "marital_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "no_ssn_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "military_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "no_dob_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "employer_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "place_of_birth": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "religion_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "living_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "meet_min_res_req": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "legal_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "days_worked_last_30": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "not_in_labor_force_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "education_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "enrolled_vocational": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bsu_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "smoking_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mica": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sub_pop_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mh_education_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "county": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "military_info_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "served_military_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "has_service_disability": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ww_ii_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "korean_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "vietnam_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "panama_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "persian_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bosnian_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "freedom_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gulf_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_conflict": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ineffective_english": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sexual_orientation_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gender_identity_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "school_attendance_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

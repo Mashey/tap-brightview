@@ -1,0 +1,74 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_271_request_val_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_subscriber_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_eligible_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "response_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reject_reason_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "follow_up_action": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

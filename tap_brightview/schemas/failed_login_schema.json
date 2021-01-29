@@ -1,0 +1,68 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "failed_login_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "login": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ip_address": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "login_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "channel": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

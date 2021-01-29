@@ -1,0 +1,218 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "area_code": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_area_code": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "fax_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "old_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "crisis": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "family_details": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "likes_dislikes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "miscellaneous": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "referral_source_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "referral_source_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "internal_external": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "referral_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "npi": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "taxonomy": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "macsis_upid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "referral_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ref_source_sub_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

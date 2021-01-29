@@ -1,0 +1,194 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_vitals_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "vitals_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bp_systolic": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bp_diastolic": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "heart_rate": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "respiration_rate": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "temperature": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "height": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "weight": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "bmi": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "pain": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "age": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "height_weight_src_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "unable_to_collect_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pulse_oximetry": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "inhaled_oxygen_concentration": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "blood_pressure_method": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "height_method": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "weight_method": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "waist_method": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "waist_circumf_value": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

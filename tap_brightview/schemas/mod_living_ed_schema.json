@@ -1,0 +1,92 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_living_ed_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "living_situation_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "homeless": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "years_education_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "school_setting_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "days_absent": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "primary_caregiver_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "social_support_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "social_support_specify": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

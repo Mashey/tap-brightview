@@ -1,0 +1,92 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_black_box_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "no_access_all": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "logged_access_all": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "full_access_all": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

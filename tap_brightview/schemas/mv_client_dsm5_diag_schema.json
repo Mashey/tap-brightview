@@ -1,0 +1,458 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tx_dx_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_dx_info_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "attached_diag_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "treatment_diag_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnostic_formulation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "disability_score": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "disability_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "effective_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_diag": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "co_occurring_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "current_diag": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "p1_diagnosed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "p2_diagnosed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "p3_diagnosed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_p1_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_p1_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_p1_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_p2_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_p2_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_p2_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_p3_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_p3_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_p3_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd9_p1_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd9_p1_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd9_p1_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd9_p2_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd9_p2_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd9_p2_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd9_p3_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd9_p3_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd9_p3_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dsm5_p1_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dsm5_p1_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dsm5_p1_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dsm5_p2_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dsm5_p2_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dsm5_p2_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dsm5_p3_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dsm5_p3_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dsm5_p3_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "snomed_p1_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "snomed_p1_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "snomed_p1_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "snomed_p2_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "snomed_p2_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "snomed_p2_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "snomed_p3_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "snomed_p3_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "snomed_p3_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "doc_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "document": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_signed_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "first_signed_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_sync": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_status": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_diagnosis_category": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnosis_category_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

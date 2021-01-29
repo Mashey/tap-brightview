@@ -1,0 +1,152 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "macsis_enrollment_verify_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_is_adult": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "parent_address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_is_minor": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_legal_custody": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_custody_specify": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "legal_custodian_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_ext": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "county": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

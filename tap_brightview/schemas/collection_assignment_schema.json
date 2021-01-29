@@ -1,0 +1,158 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "collection_assignment_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "self_pay": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_day": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "end_day": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_name_begin": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name_end": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount_begin": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "amount_end": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

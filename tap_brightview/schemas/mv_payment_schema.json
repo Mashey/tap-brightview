@@ -1,0 +1,200 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "applied_approved_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cash_sheet_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deposit_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "applied_unapproved_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "deposit_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "deposit_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "recoup_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "refunded_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "cash_sheet": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cash_sheet_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "check_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unposted_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "unapplied_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "applied_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "deposted": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "claim_action": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "approved": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payment_post_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "applied_claim_notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_sync": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_status": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "grant_payment_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

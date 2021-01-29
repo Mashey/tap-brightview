@@ -1,0 +1,230 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tx_plan_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "parent_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "responsible_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "narrative": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "identified_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "completed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discontinue_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "copy": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "tx_plan_grid_sub_prob_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_diag_axis_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "desired_outcomes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "person_strength": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "supports_resources": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "potential_barriers": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "start_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "target_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "person_served_will": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "parent_guardian_will": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "not_clinically_indicated": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "frequency": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provider": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mod_tx_dx_diag_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "strength": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "challenges": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "non_billable_failed_claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_item_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "non_billable_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "flagged_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "flagged_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

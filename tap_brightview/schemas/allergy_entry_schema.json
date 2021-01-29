@@ -1,0 +1,146 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "allergy_entry_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_allergy_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_allergy_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "other_allergy": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "allergy_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reaction": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "response": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sensitivity_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "copy_allergy_entry_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

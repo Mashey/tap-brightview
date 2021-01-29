@@ -1,0 +1,98 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "found_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "override_fixed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "override_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_sync": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_status": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

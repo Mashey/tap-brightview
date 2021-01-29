@@ -1,0 +1,224 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "measure": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "measure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "sc_flag": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gender": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "race": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "score_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "score": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "score_order": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "program_end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_admission_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_discharge_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_episode_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "score_progression": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "measure_subtotal_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_diagnosis_category": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnosis_category_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "new_logical": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

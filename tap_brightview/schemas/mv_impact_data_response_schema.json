@@ -1,0 +1,140 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_measure_response_dtl_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "measure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "question_text": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "response_val": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "sequence_val": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "score_progression": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "measure_section_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "section_title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "response_non_scoring_val": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "non_scoring": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "new_logical": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

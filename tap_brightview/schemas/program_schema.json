@@ -1,0 +1,230 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "per_diem": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "all_inclusive": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gl_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "program_funded": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "liability_exempt": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reporting_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "eds_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "requires_diag": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_cluster_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "capacity": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_per_diem_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "budgeted": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dsm_diag_category_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dpas_program_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hcpf_program_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ebp_svc_cat_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "facility_code_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "fte_hours": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ddap_program_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dart_loc_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "use_mar_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mobile_exportable_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tplan_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tplan_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tplan_entity_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "narrative": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_for_review_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "review_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "start_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "target_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "completed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "progress_toward": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "treatment_plan_grid_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "treatment_plan_grid_obj_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "treatment_plan_grid_goal_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tx_plan_grid_obj_int_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mod_tx_dx_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "code_system_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_diag_axis_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_recomm_dtl_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

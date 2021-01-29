@@ -1,0 +1,62 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "admin_co_pay_matrix_lic_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "admin_co_pay_matrix_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "licensure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "percentage": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "gl_error_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "err_msg": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "err_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "module": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "proc_func_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

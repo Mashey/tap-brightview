@@ -1,0 +1,122 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_271_eligible_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_subscriber_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "eb_information": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "coverage_level_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_type_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "insurance_type_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "time_period_qualifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "monetary_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "quantity_qualifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "benefit_quantity": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "certification_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "in_plan_network": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "medical_procedure_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "plan_coverage": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "message": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

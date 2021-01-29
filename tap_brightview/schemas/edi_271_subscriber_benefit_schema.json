@@ -1,0 +1,74 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_271_subscriber_benefit_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_eligible_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "entity_identifier_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "entity_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "entity_address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

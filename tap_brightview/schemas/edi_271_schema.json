@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_271_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "file_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "loaded_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "creation_271_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "information_source": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sender_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "file_store_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

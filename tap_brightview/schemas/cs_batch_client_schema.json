@@ -1,0 +1,92 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "cs_batch_client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cs_batch_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begining_balance": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "total_billed": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "billed_to_payer": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "client_paid": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "balance_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "billed_to_colln": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

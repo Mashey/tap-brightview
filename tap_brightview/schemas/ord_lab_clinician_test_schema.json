@@ -1,0 +1,56 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "ord_lab_clinician_test_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ord_lab_clinician_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

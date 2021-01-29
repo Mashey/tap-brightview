@@ -1,0 +1,62 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "erx_notification_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provider_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "notification_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

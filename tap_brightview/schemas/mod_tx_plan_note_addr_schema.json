@@ -1,0 +1,80 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tx_plan_note_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_plan_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_plan_note_addr_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tplan_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "addr_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "addr_comment": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "addr_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

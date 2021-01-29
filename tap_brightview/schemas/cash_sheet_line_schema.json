@@ -1,0 +1,146 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "cash_sheet_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cash_sheet_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "received_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payment_made_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "payment_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reference_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cc_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cc_auth_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deposted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deposted_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

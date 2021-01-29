@@ -1,0 +1,74 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "intake_followup_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "intake_tracking_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "followup_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "followup_result_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

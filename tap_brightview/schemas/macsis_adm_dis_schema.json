@@ -1,0 +1,344 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "macsis_adm_dis_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transaction_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "level_care_adm_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "level_of_care_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "transfer_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_codependent": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "child_in_legal_custody": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "consistent_assess_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reason_specify": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "participate_30_days_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "paying_board_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reimbursement_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "starsi_participant": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_group_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_date1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_date2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_date3": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_date4": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hb484_participant": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "children_removed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "children_returned": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "womens_program": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "adm_program_90": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "waiting_list": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "interim_services": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "care_provided": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transportation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "prenatal_care": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "copy_from_document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "self_help_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "existing_macsis_client": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "admission_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "date_of_delete": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "date_of_change": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discharge_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dual_elig_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "religious_pref_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "update_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "birth_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gender": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comp_paid_by_medicaid_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "clinician_ord_medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "verbal_order": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rx_issue_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rx_index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "rx_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "trans_error_message": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "trans_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rx_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "drug_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "patient_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "prescriber": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sig": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "quantity": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "match": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rxobjid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "refill_req_priority": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dea_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "refills": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discontinued_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "days_left": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pharmacy": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "pharmacy_address": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "clinician_created_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "prescription_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "add_to_mar": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fdb_drug_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "consent_needed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mod_med_consent_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "converted_med": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,236 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "all_codes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "axis1_dsm_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "axis1_dsm_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "axis2_dsm_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "axis2_dsm_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "axis3_dsm_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "axis3_dsm_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "doc_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "current_diag": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "current_gaf_score": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnosed_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "diagnosed_by_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnosed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnostic_formulation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "document": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_diagnosis_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_signed_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "first_signed_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mod_tx_diag_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "primary_axis": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_diagnosis": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_diagnosis_category": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnosis_category_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cooccurring_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cooccurring_status_mv": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_sync": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_status": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

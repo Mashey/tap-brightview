@@ -1,0 +1,434 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_item_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_item_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "approval_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "batch_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_next_claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_to_not_scheduled_staff": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "co_pay_claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "diagnosis_codes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_units": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "item_activity": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_activity_gl_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_authorization": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_balance": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "item_billed": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "item_expected": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "item_modifiers_only": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_procedure": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_procedure_only": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_program": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_revenue_only": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_rollup": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_rollup_rule_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_plan_fee_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_plan_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "rebill_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reversed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "secondary_claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "self_pay": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "tertiary_claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "total_units": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "total_balance": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "total_billed": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "total_expected": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "co_pay_claim_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "total_revenue": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "co_pay_claim": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "adjustments": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "item_adjustments": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "changed_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_revenue": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "item_service_begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_service_end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_sync": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_status": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

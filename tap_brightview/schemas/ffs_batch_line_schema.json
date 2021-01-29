@@ -1,0 +1,104 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "ffs_batch_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ffs_batch_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "parent_ffs_batch_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_log_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_cnt": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "actual_min": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payable_min": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bonus_min": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "paid_min": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "amount_paid": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "error_msg": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

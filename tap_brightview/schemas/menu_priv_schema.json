@@ -1,0 +1,56 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "menu_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "priv_level": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "menu_priv_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "priv_level_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

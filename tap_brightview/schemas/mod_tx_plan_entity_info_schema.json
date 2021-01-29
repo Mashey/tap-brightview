@@ -1,0 +1,146 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tx_plan_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_service": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_cmts": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "frequency_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "duration_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "antic_comp_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "agency_problem_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "other_problem": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "treatment_plan_grid_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "treatment_plan_grid_goal_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "treatment_plan_grid_obj_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "intervention_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "modality_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "progress_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tx_plan_grid_obj_int_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "achieving_outcome": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "who_responsible_ext": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "intensity_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

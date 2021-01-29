@@ -1,0 +1,74 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tx_plan_entity_hx_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_plan_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "review_tx_plan_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "target_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "review_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

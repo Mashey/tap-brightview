@@ -1,0 +1,92 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "document_signature_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rejected_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "rejected_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rejected_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "other_guarantor": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sig_str": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

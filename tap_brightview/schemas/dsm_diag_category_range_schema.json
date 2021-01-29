@@ -1,0 +1,110 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "dsm_diag_category_range_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dsm_diag_category_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "start_dsm_diagnosis_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "end_dsm_diagnosis_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "code_system_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "start_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "start_code_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_code_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

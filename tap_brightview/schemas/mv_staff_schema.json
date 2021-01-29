@@ -1,0 +1,326 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "birth_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "citizenship": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "current_billing_category": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "current_credential": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "current_credential_exp_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "user_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "current_last_login_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "current_admin_supervisors": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "current_clinical_supervisors": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "eeoc_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "employee_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ethnicity": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "full_name_alternate": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "former_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "full_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gender": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "living_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mailing_address_line_1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mailing_address_line_2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mailing_address_line_3": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "marital_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "military_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "military_service": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_languages": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "need_interpreter": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "npi_number": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "npi_date_received": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "npi_taxonomy_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_language": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_language": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_phone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_phone_ok_to_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_phone_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "race": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ssn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tribal_member": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "active": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_sync": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_status": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

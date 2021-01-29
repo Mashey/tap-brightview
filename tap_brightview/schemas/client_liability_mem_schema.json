@@ -1,0 +1,128 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_liability_mem_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_liability_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "relationship_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "residential_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dependent": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "veteran": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discharge_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "is_client": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

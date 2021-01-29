@@ -1,0 +1,380 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "staff_history_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "supervisor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "company_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "needs_sign": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "job_category": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_as_supervisor": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contract_staff": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "need_privileging": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "electronic_service": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "home_page": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "multiple_booking": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "secondary_location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "position_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "inaunion": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "grade_level": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "liability_insurance": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "insurance_limits": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "liability_insurance_exp_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "liability_policy_num": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "wage_amt": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "secondary_supervisor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "wage_indirect": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "wage_prog_dev": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "multiple_keeping": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "secondary_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "insurance_limits_aggregate": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "staff_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "overtime_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pay_method_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "personnel_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mgmt_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "provider_spec_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "department_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "division_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "job_code_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pap_code1_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pap_code2_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "sec_job_code_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "region_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "timesheet_required": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "eeoc_organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ep_medicaid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ep_medicare": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "spec_sub_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "patient_age_max": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "patient_age_min": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "wage_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "moonlighting_eligible": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "uses_dsm5_txdx_module": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

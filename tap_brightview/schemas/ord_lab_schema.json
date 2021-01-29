@@ -1,0 +1,200 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "ord_lab_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "inpatient": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "verbal_order": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "verified": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "parent_ord_lab_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "lab_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mod_tx_diag_axis_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "frequency": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_config_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "icd9_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_dx_diag_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "laboratory_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "self_pay_order": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_payer_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "lab_test_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fasting": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cih_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "specimen_label": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "erx_client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "needs_update": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_send_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_update_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnosis_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "diag_table_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

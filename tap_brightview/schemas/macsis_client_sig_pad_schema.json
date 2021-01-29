@@ -1,0 +1,44 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "macsis_client_sig_pad_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "macsis_enrollment_verify_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ins_comp_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_extension": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_extension": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_extension": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_plan_contact_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "verify_permission": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "need_authorization": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "policy_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "id_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "id_serial_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "plan_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "pharmacy_benefit_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deductible_end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ind_deductible_amt": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "max_dollars_year": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "max_visits_year": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ann_deductible_met": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "special_requirements": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "auth_procedure_specific": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ins_type_edi_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "card_issue_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "spend_down_amt": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "darts_tpl_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fees_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "periodic_schedule_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ebp_svc_cat_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "subscriber_issue_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

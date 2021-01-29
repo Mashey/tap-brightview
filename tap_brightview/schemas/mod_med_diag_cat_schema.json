@@ -1,0 +1,104 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_med_diag_cat_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "medication1_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "medication2_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "medication3_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "medication4_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "primary_diag_cat_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "sec_diag_cat_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

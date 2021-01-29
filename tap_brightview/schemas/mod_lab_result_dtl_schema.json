@@ -1,0 +1,182 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_lab_result_dtl_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_lab_result_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "report_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "test_performed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "test_result": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unit_of_measure": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "specimen_source": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "abnormal_results": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "references_range": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "test_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "result_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "order_client_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "loinc_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "loinc_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "specimen_disposition": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "specimen_condition": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "lab_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

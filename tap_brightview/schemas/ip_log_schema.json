@@ -1,0 +1,140 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "ip_log_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "user_name_used": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hash_used": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ip_address": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "system_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "user_name_valid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "successful_login": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "browser_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "browser_version": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "compatibility_mode_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "document_mode": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "os_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "os_version": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "resolution_height": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "resolution_width": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "browser_height": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "browser_width": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

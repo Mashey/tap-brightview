@@ -1,0 +1,74 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_835_plb_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_835_transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "reference_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reference_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reference_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edi_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

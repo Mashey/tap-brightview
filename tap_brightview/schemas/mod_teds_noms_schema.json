@@ -1,0 +1,182 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_teds_noms_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "days_awaiting_treatment": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "education_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "employment_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "not_in_labor_force_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "living_arrangement_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "number_of_arrests": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "number_of_non_dui_arrests": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "number_of_dui_arrests": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "demo_ident_document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "sub_abuse_document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "trans_dis_document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tx_diag_document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "special_education_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "enrolled_school_job_training": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "grade_point_average_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "occupation_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "lifetime_dui_arrest": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

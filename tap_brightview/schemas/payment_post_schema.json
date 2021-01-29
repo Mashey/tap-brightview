@@ -1,0 +1,236 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "payment_post_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deposit_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "client_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_guarantor": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reference_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_item_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_responsibility": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "next_action_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_next_payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "approved": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "parent_payment_post_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "recoup": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "check_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "recouped_payment_post_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "effective_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "allowed_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "unapply_hold_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "next_client_payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "auto_process_rule_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

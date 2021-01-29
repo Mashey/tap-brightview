@@ -1,0 +1,110 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "gl_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "item_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cr_dr": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reference": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "account_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

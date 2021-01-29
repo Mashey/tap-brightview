@@ -1,0 +1,122 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "transaction_period_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "post_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "account_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "cr_acct_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dr_acct_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reversing_transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "transfer_transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "is_rev_adj": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

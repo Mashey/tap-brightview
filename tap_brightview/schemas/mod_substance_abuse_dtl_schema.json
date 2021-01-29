@@ -1,0 +1,146 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_substance_abuse_dtl_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_substance_abuse_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "substance_abused_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "route_of_admin_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "frequency_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "age_first_used": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_used_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "types_amount_used": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "previous_use": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "previous_use_detail": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "used_previous_48_hours": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "positive_alcohol_drug_test": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

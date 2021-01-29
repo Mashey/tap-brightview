@@ -1,0 +1,428 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_log_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "admin_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_gl_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_unit": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "actual_begin_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "actual_duration": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "actual_end_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "authorization": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "authorization_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "document": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "incident_or_bill_to_staff_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "program_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "program_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "recurring_appointment": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "referring_physician": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "scheduled_begin_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "schedule_duration": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "scheduled_end_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "svcdoc_client": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "svcdoc_group": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_location_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_location_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_units": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cancellation_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "method_of_delivery": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "method_of_delivery_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "non_billable_mins": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "status_by_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "status_by_staff_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "expected_fee": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "amount_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "expected_payer": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "units": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "collective_document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_sync": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_status": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "after_hours_yes_or_no": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

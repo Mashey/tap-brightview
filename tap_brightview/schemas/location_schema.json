@@ -1,0 +1,218 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "federal_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "location_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gl_location_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "paymaxx_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contract_location": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "uses_cash_sheet": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "county_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "gmt_zone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "value_options_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "default_contact_location": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "eeoc_location": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edu_loc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "npi_number": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_location_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "facility_bills_override": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "region_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "taxonomy_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

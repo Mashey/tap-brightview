@@ -1,0 +1,122 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_legal_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "legal_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "justice_sys_invol": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "arrest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "currently_in_jail": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "date_out_jail": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "times_admitted_jail": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "days_in_jail": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "legal_custody_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "legal_inv_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

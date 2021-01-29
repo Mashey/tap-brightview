@@ -1,0 +1,104 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "erx_drug_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ndc_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fdb_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "brand_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "generic_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "brand_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "schedule": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fdb_route_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "form": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "strength": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

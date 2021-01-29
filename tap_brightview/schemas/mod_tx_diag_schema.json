@@ -1,0 +1,152 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tx_diag_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "date_diagnosed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "effective_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dx_by_history": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dx_by_history_cmt": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dx_by_impression": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dx_by_impression_cmt": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hospital": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hospital_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnosis_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "diagnostic_formulation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "substance_abuse_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

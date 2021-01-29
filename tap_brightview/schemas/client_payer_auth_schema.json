@@ -1,0 +1,242 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_payer_auth_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_cluster": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "authorized_for": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "max_sessions": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "used_sessions": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "authorization_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "authorization_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "tracking_only": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "inactive": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "extended_stay": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "special_requirements": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "periodic_limit": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "pl_bill_next": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "limit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "limit_unit": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "region_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "authorization_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "verbal_auth": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_code_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "eligibility_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_identifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "period": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}
