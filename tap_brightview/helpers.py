@@ -1,3 +1,4 @@
+import json
 import tap_brightview.service as service
 from schema_builder import build_json_schema
 
@@ -26,3 +27,25 @@ def create_json_schemas(file_path):
         build_json_schema('table', data=query, table_name=table)
 
     return 'JSON Schemas created successfully.'
+
+
+def open_json_schema(table_name):
+    with open(f'./tap_brightview/schemas/{table_name}_schema.json') as schema:
+        json_schema = json.load(schema)
+
+    return json_schema
+
+
+def create_json_response(json_schema, response):
+    schema_keys = list(json_schema['properties'])
+    json_response = []
+
+    for row in response:
+        schema_properties = json_schema['properties']
+        key_value_pairs = list(zip(schema_keys, row))
+
+        for pair in key_value_pairs:
+            schema_properties[pair[0]] = pair[1]
+            json_response.append(schema_properties)
+
+    return json_response
