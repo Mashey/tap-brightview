@@ -1,0 +1,128 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_employmt_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "emp_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "start_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hours_worked": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "hourly_wage": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "monthly_wage": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "non_comp_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "available": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unavail_reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_employ_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "volunteer_hours": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

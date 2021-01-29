@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "claim_engine_run_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "manual_run_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "failed_act_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "passed_claim_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "failed_claim_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

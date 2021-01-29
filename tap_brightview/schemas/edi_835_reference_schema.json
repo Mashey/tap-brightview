@@ -1,0 +1,56 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_835_reference_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_835_service_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ref_identifier_qual": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ref_identifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

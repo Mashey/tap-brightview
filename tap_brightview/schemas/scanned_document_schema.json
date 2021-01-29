@@ -1,0 +1,134 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "scanned_document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "file_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mime_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "uploaded_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "uploaded_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "filesize": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_doc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "session_organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

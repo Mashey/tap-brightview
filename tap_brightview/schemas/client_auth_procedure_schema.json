@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_auth_procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_payer_auth_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "max_sessions": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "timeframe": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "academic_calendar": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "all_modifiers": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

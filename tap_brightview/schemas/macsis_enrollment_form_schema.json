@@ -1,0 +1,392 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "macsis_enrollment_form_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "board_consortium": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "uci_no": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "form_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provider_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "date_faxed_to": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "upi": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_person": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fax_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_ext": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "non_english_lang_code": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "medicaid_no": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "start_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "family_size": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "adj_gross_mon_income": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "country_of_residence": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "out_of_state": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "plan_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "smd_sed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "aod_roi_signed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "consent_for_tx_signed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "refuse_to_sign": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "in_crisis": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sliding_fee_percentage": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "member_copay": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "refer_to_provider": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "refer_to_upi": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "refer_to_other1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "refer_to_other2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "refer_to_other3": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "upi_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "refer_to_upi_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "first_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "middle_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "birth_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gender": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "home_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "home_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "home_ext": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "home_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "work_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "work_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "work_ext": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "work_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "marital_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ssn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

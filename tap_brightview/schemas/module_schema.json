@@ -1,0 +1,122 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "module_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "form_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "config_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "release_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "module_link": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discontinue_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "special_config_link": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "table_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "config_proc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "use_offline": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "disabled": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "view_path": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_form_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mobile_exportable_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

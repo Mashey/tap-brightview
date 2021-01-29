@@ -1,0 +1,482 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cmhc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "federal_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gl_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_ein": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "statement_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_phone_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_fax_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_fax_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "short_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "org_logo": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_url": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "org_prefix": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ssn_required": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "parent_org_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "admit_org_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "billing_organization": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "care_setting_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "administrative_setting_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "patient_population_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "npi_number": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "value_options_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "uses_cash_sheet": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "paymaxx_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contract_organization": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "eeoc_organization": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_location_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "facility_bills_override": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edu_organization": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "region_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_fax_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_phone_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "taxonomy_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dpas_provider_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_contact_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ccar_agency_code_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "crs_group_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cpms_cmhp_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cpms_provider_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bho_location_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hospital_data_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "medicaid_provider_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "county_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "display_client_balance": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cmhc_tn_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "poms_provider_info": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mbhp_esp_name_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "beacon_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hl7_msh_4": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mots_facility_identifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mots_facility_contact": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mots_contact_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mots_contact_phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "alert_days": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mots_cpd_service_doc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mots_pri_alert_staff": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mots_sec_alert_staff": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mots_parent_provider_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mu_cert_num": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ga_scs": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "csu_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

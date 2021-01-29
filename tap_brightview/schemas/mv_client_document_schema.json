@@ -1,0 +1,362 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_doc_setup_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "no_of_addendum": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "no_of_external_signatures": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "no_of_internal_signatures": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "no_of_rejections": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_date_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "date_of_service": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "days_from_create_to_first_sign": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "days_from_create_to_fully_sign": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_by_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_date_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "document_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_signed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_signed_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "fully_signed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fully_signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fully_signed_staff": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hours_from_create_to_first_sig": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "hours_from_create_to_fully_sig": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "minimum_signed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "next_staff_to_sign": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "next_staff_to_sign_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "restricted_from_portal": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_by_staff": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_by_staff_with_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "survery_answer_1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "survery_answer_2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "survery_answer_3": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "survery_question_1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "survery_question_2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "survery_question_3": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "instance_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_program": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_document": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "group_document_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_sync": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "record_status": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "error_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_document_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_activity_detail_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "effective_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

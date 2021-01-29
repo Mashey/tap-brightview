@@ -1,0 +1,152 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "relationship_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "guarantor": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "caregiver": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "self_pay": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "receive_statements": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "legal_guardian": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "appt_contact": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "conservator": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "emergency_contact": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_caregiver": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "health_care_rep": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

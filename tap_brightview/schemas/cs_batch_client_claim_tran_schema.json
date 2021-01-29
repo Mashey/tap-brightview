@@ -1,0 +1,80 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "cs_batch_client_claim_tran_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cs_batch_client_claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tran_type_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "trans_reason_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tran_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

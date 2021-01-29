@@ -1,0 +1,146 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_co_pay_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "percentage": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "begin_visit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "end_visit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "licensure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "minimum_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "admin_co_pay_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pay_client_payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

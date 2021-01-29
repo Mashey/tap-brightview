@@ -1,0 +1,74 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "ffs_batch_line_hx_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ffs_batch_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "act_status_reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "old_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "new_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

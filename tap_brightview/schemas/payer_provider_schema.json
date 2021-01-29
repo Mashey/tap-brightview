@@ -1,0 +1,260 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "payer_provider_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_panel_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pin_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edi_provider_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "taxonomy_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "npi_number": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tenncare_provider_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pin_qual_edi_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "group_qual_edi_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "specialty_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "blanket_auth_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_specific_code1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_specific_code2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_specific_code3": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "default_diagnosis_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "attending_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "clia_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_specific_qual1": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_specific_qual2": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_specific_qual3": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "default_icd9_diagnosis_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "default_icd10_diagnosis_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "person_id_number_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ordering_prov_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_qualifier_ids": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,206 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "menu_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "menu_system_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "parent_menu_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "link": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "active": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "expandable": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "target": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "proceed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "proceed_confirm": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "default_link": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_doc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "available_offline": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "encrypt_link_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "encryption_key": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "encryption_link": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "encryption_parameters": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "document_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "pentaho_report_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "pentaho_report_param": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "menu_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icon": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "admin_report_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

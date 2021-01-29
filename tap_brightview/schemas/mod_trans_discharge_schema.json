@@ -1,0 +1,188 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_trans_discharge_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "effective_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "trans_dis_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "change_program_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "change_staff_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "from_client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "from_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "to_organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "to_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "to_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "discharge_reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_episode_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "med_reconciliation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "financial_county_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sub_pop_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "discharge_status_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "custom_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "days_waitlist": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "type_tx_setting_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staterpt_specifier_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

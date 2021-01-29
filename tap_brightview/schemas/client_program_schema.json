@@ -1,0 +1,326 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_episode_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discharge_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "age_group_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "end_of_episode": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "discharge_reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "discharged_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reactivate_reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reactivated_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "per_diem_override": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "attending_physician_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ip_admit_source_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ip_admit_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "discharge_status_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "admitting_icd9_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reason_icd9_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "type_of_bill_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "principal_icd9_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "principal_icd9_code_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "admitting_dsm_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reason_dsm_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "to_referral_source_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "med_reconciliation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "prev_ext_discharge_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "prev_ext_facility_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pact_hospital_bed_days": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "pact_episodes": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "financial_county_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "trans_to_client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "sub_pop_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "beacon_provider_admissionid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "beacon_referral_no": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_reservation_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "days_waitlist": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "type_tx_setting_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staterpt_specifier_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

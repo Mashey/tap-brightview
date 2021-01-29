@@ -1,0 +1,62 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_service_detail_sb_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_service_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_package_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

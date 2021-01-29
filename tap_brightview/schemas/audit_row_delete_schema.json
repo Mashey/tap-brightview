@@ -1,0 +1,62 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "audit_row_delete_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cl_table_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cl_table_column": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cl_table_key_value": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "request_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

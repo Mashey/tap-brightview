@@ -1,0 +1,140 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "eeoc_code_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "hire_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "qsi_user_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "npi_number": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "npi_received_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "taxonomy_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "country_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "uuid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "submitter_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "connects_auth_user_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "state_reporting_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "state_report_ids": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

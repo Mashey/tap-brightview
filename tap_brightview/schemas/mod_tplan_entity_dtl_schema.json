@@ -1,0 +1,116 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tplan_entity_dtl_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tplan_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "field_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "descriptor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tx_plan_grid_sub_prob_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "frequency_from": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "frequency_to": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "frequency_period": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

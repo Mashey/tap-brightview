@@ -1,0 +1,188 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "claim_batch_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "batch_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "run_through": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edi_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_cnt": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_item_cnt": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "total_billed": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "total_expected": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "billing_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "submitted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "submitted_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_invoice_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "custom_invoice_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "electronic_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transmit_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "special_code_exception": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edi_complete_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "auto_process_rule_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "file_open_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

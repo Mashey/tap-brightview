@@ -1,0 +1,140 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_service_detail_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ordering_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "explain_exception": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "projected_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "plan_trans_discharge": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "recovery_area_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "consumer_hopes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "progress": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "safety_plan_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "advance_directive_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "care_coordination_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_group_text": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

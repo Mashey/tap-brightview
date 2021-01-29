@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "payment_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payment_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cc_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cc_auth_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reference_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payment_made_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

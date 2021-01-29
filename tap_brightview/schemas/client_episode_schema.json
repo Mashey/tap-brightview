@@ -1,0 +1,152 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_episode_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "call_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "admission_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discharge_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discharge_reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "discharge_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "referral_source_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "prev_ext_discharge_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "prev_ext_facility_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "admit_organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "episode_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "first_avail_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_avail_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "prev_summary_care_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

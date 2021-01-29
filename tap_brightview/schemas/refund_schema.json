@@ -1,0 +1,116 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "refund_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payment_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reason_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "approved": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reversed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "trans_reason_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payment_post_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

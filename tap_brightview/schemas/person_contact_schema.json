@@ -1,0 +1,128 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "person_contact_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "person_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "type_rel_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "contact_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "emergency_contact": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "email1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "email2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "self": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "drct_email": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "patient_portal_user_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_meeting_link": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

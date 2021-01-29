@@ -1,0 +1,212 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_eval_management_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "setting": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "counseling": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "total_face_time": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "psychotherapy_time": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "complexity_apply": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "med_management_conducted": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "psychotherapy_conducted": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "history": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "exam": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mdm": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "emlevel": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "level_calc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "em_type": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "provide_psychotherapy_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "total_face_to_face_time": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "total_em_time": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mdm_level": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "total_prolonged_time": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "prolonged_time_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "psychotherapy_comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "problems": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "complexity": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "risk": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

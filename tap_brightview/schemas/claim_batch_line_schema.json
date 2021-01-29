@@ -1,0 +1,116 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "claim_batch_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_batch_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "rebill_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rebill_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "batch_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "error_message": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_freq_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "void_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_claim_reference": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "tf_edi_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_total_billed_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,194 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "service_doc_setup_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_doc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "report_file_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "single_page": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_only": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_sig": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_orders_option": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "schedule": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sch_placement": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "use_accept_reject": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "use_signature_pad": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_procedure_info_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "require_del_priv": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "use_incident_to": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signature_field": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "complete_incomplete": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "progress_trending_chart": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_program_req": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mobile_exportable_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sync_to_mobile_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "effective_date_req": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

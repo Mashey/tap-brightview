@@ -1,0 +1,164 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tx_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "plan_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "initial_review": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_plan_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "year_17_younger": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_criteria": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "score": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "linked_document_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "next_plan_due_in": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "custom_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "custom_text_area_1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_text_area_2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_radio_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_text_box": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "active_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

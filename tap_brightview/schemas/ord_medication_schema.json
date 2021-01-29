@@ -1,0 +1,200 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "ord_medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "begin_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "medication_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "thera_sub_allowed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "stat_or_now": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "route_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "site_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dosage": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dose_unit_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "frequency_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dur_days": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dur_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "quantity": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "refills": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "targeted_symptoms": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "narrative": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "verbal_order": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "verified": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "prescribing_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "adtl_data": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mar_dosage_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

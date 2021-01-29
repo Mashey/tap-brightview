@@ -1,0 +1,98 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_835_transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_835_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "transaction_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "handling_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payment_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "payment_method": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "check_trace_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "billing_provider_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "processed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_payment_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

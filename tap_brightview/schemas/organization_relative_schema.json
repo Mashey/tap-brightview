@@ -1,0 +1,50 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "descendant_org_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ancestor_org_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "generations": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

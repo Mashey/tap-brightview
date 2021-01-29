@@ -1,0 +1,80 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "staff_supervisory_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_history_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "supervisory_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "supervisory_group_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

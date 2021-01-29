@@ -1,0 +1,236 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "erx_prescription_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "voided": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "denied": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discharge_rx": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provider_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "preparer_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "erx_pharmacy_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "erx_drug_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "erx_sig_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "completed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "stop_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_modified_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_modified_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "height": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "weight": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "intended_use": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "completion_action": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "send_method": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "undeliverable_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ack_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ack_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_dx_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_dx_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "secondary_dx_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "secondary_dx_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "preparer_username": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provider_username": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

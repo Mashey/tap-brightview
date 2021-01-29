@@ -1,0 +1,206 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "activity_log_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "block_activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "admin_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "contact_location_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payroll_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "units": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "staff_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edu_period_class_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_doc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_recurr_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_location_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "attendees": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_set_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "schedule_template_apply_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_reservation_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

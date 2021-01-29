@@ -1,0 +1,194 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "claim_item_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "expected": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "billed": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "approved": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "balance_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "service_end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "number_of_units": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "invoice_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "invoice_sort": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "parent_claim_item_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_rollup_rule_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_rollup_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "code_set_category": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_item_identifier_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "approved_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "approved_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_addon_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ordered_by_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "unit_day_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

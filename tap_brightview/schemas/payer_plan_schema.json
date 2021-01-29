@@ -1,0 +1,254 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "fee_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "print_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "est_monthly_value": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "value_escalates": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "partial_year": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "always_generate_claims_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "emdeon_payer_info_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_office_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "alert_insurance_verifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "msp_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ccar_bho_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ccar_enroll_payer_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "funding_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cob_code_reqd": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "no_auth_waterfall": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "expected_billed_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "pro_non_primary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "darts_tpl_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "beacon_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dedicated_funding_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "icd10_effective_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_payer_fees_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "copay_sliding_scale_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ordering_provider_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ebp_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ga_scs": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

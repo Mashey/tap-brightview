@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "cs_batch_client_aging_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cs_batch_client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_name": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "on_account": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "age_00_30": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "age_31_60": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "age_61_90": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "age_91_120": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "age_ovr_120": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

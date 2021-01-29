@@ -1,0 +1,170 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_module_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "old_order_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "effective_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "terminate_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "signed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "signed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discontinued_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "discontinue_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "super_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "super_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "recorded_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "covering_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "covering_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "covering_sign": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

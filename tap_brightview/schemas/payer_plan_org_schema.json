@@ -1,0 +1,254 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "in_edi_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "out_edi_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_270_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dyn_hcfa_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_panel_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "billing_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "in_billing_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "gl_code_payer_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "custom_invoice_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_plan_org_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_file_ind_edi_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_office_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edi_payer_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_invoice_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "in_custom_invoice_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "in_dyn_hcfa_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "elig_emdeon_payer_info_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "in_emdeon_payer_info_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "out_emdeon_payer_info_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "interim_billing_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "in_edi_payer_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "out_edi_payer_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "max_diag_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "rend_prov_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "pat_as_sub_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "collection_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "collection_wo_reason_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "collection_wu_reason_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "sender_identifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_next_payer_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_guarantor_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "create_client_resp_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

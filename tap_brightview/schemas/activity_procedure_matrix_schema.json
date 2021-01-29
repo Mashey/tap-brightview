@@ -1,0 +1,272 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "activity_procedure_matrix_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "activity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "standard_fee": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "min_minutes": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "max_minutes": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "program_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "licensure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "billing_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bill_unit": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "bill_frequency": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_fraction_unit": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "flags": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unit_calculation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "nearest_unit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "service_location_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "min_age": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "max_age": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "immunization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "inventory_category_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "hl7_immune_substance_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "setting": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "emlevel": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "hl7_immune_route_admin_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "min_dose": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "max_dose": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "type_of_bill_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "value_codes_req_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transportation_method": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unit_day_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

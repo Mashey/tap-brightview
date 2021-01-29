@@ -1,0 +1,68 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_substance_abuse_date_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_substance_abuse_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "date_value": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "date_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

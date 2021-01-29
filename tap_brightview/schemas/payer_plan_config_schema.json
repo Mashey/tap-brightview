@@ -1,0 +1,410 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "payer_plan_config_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "billing_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "gl_map_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "place_of_serv_hc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "place_of_serv_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "type_of_serv_hc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type_of_service_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "use_sig_name_cred": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sig_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sig_cred": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_panel_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "proxymed_payer_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "region": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "region_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "timely_filing_limit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "book_to_gl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unkept_appt_charge": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "unkept_appt_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "need_auth": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "need_auth_notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "send_statement": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "need_group_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "need_pin_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "need_id_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "default_id_to_ssn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "eap_payer": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "v_code_allowed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "bill_for_discharge_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "department_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "max_number_of_clients": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "need_provider_pin": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "need_provider_group": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "medigap_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gl_code_payer_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "in_edi_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "out_edi_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "grant_payer": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "grant_trans_reason_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "grant_writeoff": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dyn_hcfa_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_270_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "bho_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ics": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "reimburse_ff": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "medicaid_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "timely_filing_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "non_med_aid_payer_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "concurrent_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "auth_sort_priority": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "timely_filing_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fcs": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "relevant_diag": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "collection_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "require_delay_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "h_timely_filing_limit": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "h_timely_filing_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "min_auth_utilization": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "collection_assignment_clms_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "collection_assignment_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

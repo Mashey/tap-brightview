@@ -1,0 +1,86 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tplan_entity_map_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tplan_master_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "problem_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "goal_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "objective_entity_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

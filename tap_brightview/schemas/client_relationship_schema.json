@@ -1,0 +1,308 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_relationship_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "relationship": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "begin_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custody": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "mail_allowed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_allowed": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "lives_with": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "age": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "birth_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gender": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "race": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "is_hispanic": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mental_health_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "agency_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "agency_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "org_person": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "org_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "middle_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "admin_3rd_party_src_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "legal_guardian": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "emergency_contact": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_caregiver": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "consent_treatment": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_phone_area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_phone_extension": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_phone_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_extension": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "person_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "next_of_kin": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "birth_last_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "email_address": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_method_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

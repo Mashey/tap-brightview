@@ -1,0 +1,230 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_835_service_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_835_transaction_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_item_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "status_code": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "claim_billed": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "claim_payment": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "patient_responsibility": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "number_of_units": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "number_of_units_paid": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "service_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "first_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_information": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payment_entry_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "amount_qlfr_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "monetary_amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "middle_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_control_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payment_line_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payment_post_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "revenue_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "service_end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "procedure_modifier1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "procedure_modifier2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "procedure_modifier3": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "procedure_modifier4": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provider_control_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "processed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

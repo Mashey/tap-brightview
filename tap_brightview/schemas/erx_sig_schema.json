@@ -1,0 +1,128 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "erx_sig_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "action": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dose": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dose_unit": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "route": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dose_timing": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dose_other_notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "duration": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "quantity": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "quantity_unit": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "refills": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "subst_permitted": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "other_notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "patient_notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments_truncated": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

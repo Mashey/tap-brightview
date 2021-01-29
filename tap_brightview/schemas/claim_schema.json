@@ -1,0 +1,188 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_payer_auth_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "guarantor_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "location_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rebill": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "claim_rollup_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_payer_plan_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "co_pay_claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cob_code_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_diag_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "co_ins_claim_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "auto_process_rule_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "type_of_bill_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "billable_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "supervising_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "payer_plan_benefit_fee_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "payer_plan_benefit_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "procedure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "licensure_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "charge": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "not_paid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "charge_as_pct": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rev_charge": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "rev_not_paid": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rev_charge_as_pct": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "master_modifier_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "master_modifier2_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "master_modifier3_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "master_modifier4_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

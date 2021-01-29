@@ -1,0 +1,272 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "file_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "display_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "authorization_information": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "security_information": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sender_id_qual": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sender_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "receiver_id_qual": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "receiver_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "version": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gs02_override": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "gs03_override": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "usage_indicator": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "transaction_loop": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "prefix_suffix": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "addtl_identifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "field_separator_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "separator_835": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "organization_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_template_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "strip_returns": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sender_id_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sender_id_dyn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "seg_separator_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comp_separator_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ack_req": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_structure": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "submitter_id_override": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "receiver_id_override": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "receiver_name_override": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "max_transactions": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "rep_separator_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "active_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edi_trading_partner_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

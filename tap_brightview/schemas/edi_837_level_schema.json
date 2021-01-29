@@ -1,0 +1,56 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_837_level_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "plsql_bloc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "edi_level_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

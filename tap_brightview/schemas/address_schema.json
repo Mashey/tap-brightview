@@ -1,0 +1,164 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "street1": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "street2": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "apt_suite": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "po_box": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "city": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "county": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "state": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "zip": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "zip_plus_four": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "directions": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "country_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "longitude": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "latitude": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "source_of_lat_long": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_lat_long_update_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "village_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

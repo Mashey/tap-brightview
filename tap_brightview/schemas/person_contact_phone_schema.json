@@ -1,0 +1,134 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "person_contact_phone_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "person_contact_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "phone_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "area_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "extension": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ok_to_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "phone_number_intl": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "add_calling_notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "calling_notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_method_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

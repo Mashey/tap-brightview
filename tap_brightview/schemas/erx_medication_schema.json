@@ -1,0 +1,188 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "erx_medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "inpatient_medication": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "replaces_erx_medication_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "erx_prescription_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "provider_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "preparer_staff_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "erx_pharmacy_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "erx_drug_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "erx_sig_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "start_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "stop_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fill_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "stop_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sig_changed_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_modified_by": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_modified_datetime": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_dx_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "primary_dx_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "secondary_dx_code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "secondary_dx_desc": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provider_username": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "preparer_username": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provider_display_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

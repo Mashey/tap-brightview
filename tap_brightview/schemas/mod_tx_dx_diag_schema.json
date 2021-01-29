@@ -1,0 +1,134 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "mod_tx_dx_diag_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "mod_tx_dx_info_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "general_medical_condition": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "provisional": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "priority": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "diagnosed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "relevant_yn": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "diagnosis_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "present_admission_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "diagnosis_status_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deleted_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

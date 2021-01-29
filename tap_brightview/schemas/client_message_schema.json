@@ -1,0 +1,164 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "client_message_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "client_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "post_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "message": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "search_results": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "schedule_display": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "front_desk": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "changed_by": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "changed_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payer_info": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "caseload": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "dis_summary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "poe": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "whiteboard": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "message_type_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "facesheet": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "highlight_color": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "patient_assistance": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "autogeneration_key": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

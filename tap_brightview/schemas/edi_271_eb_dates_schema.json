@@ -1,0 +1,62 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "edi_271_eb_dates_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_subscriber_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "edi_271_eligible_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "date_qualifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "eb_date_string": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}

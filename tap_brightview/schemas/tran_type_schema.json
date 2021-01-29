@@ -1,0 +1,62 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "tran_type_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cr_acct_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "dr_acct_dsc_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tran_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "effect": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "last_commit_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_ingest": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_operation_time": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    }
+}
