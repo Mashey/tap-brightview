@@ -14,8 +14,8 @@ def create_table_list(tables_path):
     return clean_data
 
 
-def create_json_schemas():
-    table_list = create_table_list('db_tables.txt')
+def create_json_schemas(file_path):
+    table_list = create_table_list(file_path)
     client = service.create_client()
     sql = service.create_sql_cursor(client)
 
