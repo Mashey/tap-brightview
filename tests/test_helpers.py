@@ -2,19 +2,12 @@ import pytest
 import json
 import tap_brightview.helpers as helper
 
-
 def test_create_table_list():
     tables = helper.create_table_list('db_tables.txt')
 
     assert isinstance(tables, list)
     assert len(tables) > 0
     assert isinstance(tables[0], str)
-
-
-def test_create_json_schemas():
-    result = helper.create_json_schemas()
-
-    assert result == 'JSON Schemas created successfully.'
 
 
 def test_sql_to_json():
