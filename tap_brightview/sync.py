@@ -1,7 +1,7 @@
 import singer
 from singer import Transformer, metadata
 
-The client name needs to be filled in here
+# The client name needs to be filled in here
 from tap_brightview.client import HiveClient
 from tap_brightview.streams import STREAMS
 
@@ -32,7 +32,6 @@ def sync(config, state, catalog):
                 stream.replication_key
             )
 
-            client = HiveClient()
             for record in stream_obj.sync():
                 transformed_record = transformer.transform(
                     record, stream_schema, stream_metadata)
@@ -43,8 +42,8 @@ def sync(config, state, catalog):
                 )
 
             # If there is a Bookmark or state based key to store
-            state = singer.clear_bookmark(
-                state, tap_stream_id, BOOKMARK_KEY)
+            # state = singer.clear_bookmark(
+            #     state, tap_stream_id, BOOKMARK_KEY)
             singer.write_state(state, tap_stream_id)
 
     state = singer.set_currently_syncing(state, None)
