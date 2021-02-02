@@ -1,5 +1,7 @@
 import singer
+import json
 import tap_brightview.helpers as helper
+import tap_brightview.client as client
 
 LOGGER = singer.get_logger()
 
@@ -15,6 +17,7 @@ class Stream:
 
     def __init__(self, client, state):
         self.client = client
+        # Add state back as a parameter after testing
         self.state = state
 
     def sync(self, *args, **kwargs):
@@ -29,22 +32,47 @@ class FullTableStream(Stream):
     replication_method = 'FULL_TABLE'
 
 
-class ActProcMatrixDsc(IncrementalStream):
-    table_name = 'act_proc_matrix_dsc'
-    tap_stream_id = 'act_proc_matrix_dsc'
-    key_properties = ['act_proc_matrix_dsc_id']
+class Activity(IncrementalStream):
+    hive_client = client.HiveClient()
+    table_name = 'activity'
+    tap_stream_id = 'activity'
+    key_properties = ['activity_id']
     replication_method = 'INCREMENTAL'
     valid_replication_keys = ['last_operation_time']
     replication_key = 'last_operation_time'
 
     def records_sync(self, table_name):
         json_schema = helper.open_json_schema(table_name)
-        response = self.client.query_database()
-        json_response = helper.create_json_response(json_schema, response)
-        for row in json_response:
-          yield row
+        response_length = 25
+        while response_length >= 25:
+            response = self.hive_client.query_database(table_name)
+            response_length = len(response)
+            json_response = helper.create_json_response(json_schema, response)
+            for row in json_response:
+                singer.write_bookmark(
+                    self.state,
+                    self.tap_stream_id,
+                    self.replication_key,
+                    row['last_operation_time']
+                )
+                singer.write_state(
+                    {'last_operation_time': row['last_operation_time']})
 
+                yield row
+
+
+def create_state():
+    with open('./state.json') as state_file:
+        state = json.load(state_file)
+
+        return state
+
+
+state = create_state()
+activity_stream = Activity('dummy', state)
+
+activity_stream.records_sync('activity')
 
 STREAMS = {
-    'act_proc_matrix_dsc': ActProcMatrixDsc
+    'activity': Activity
 }

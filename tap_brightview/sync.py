@@ -2,8 +2,8 @@ import singer
 from singer import Transformer, metadata
 
 # The client name needs to be filled in here
-from tap_test.client import CLIENT_CLASS_NAME
-from tap_test.streams import STREAMS
+# from tap_brightview.client import CLIENT_CLASS_NAME
+# from tap_brightview.streams import STREAMS
 
 LOGGER = singer.get_logger()
 

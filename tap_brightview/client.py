@@ -3,7 +3,6 @@ import os
 import jaydebeapi
 import jpype
 
-
 class HiveClient:
     def __init__(self):
         load_dotenv()
@@ -17,12 +16,13 @@ class HiveClient:
         )
         self.sql = self.client.cursor()
 
-
-    def query_database(self):
+    def query_database(self, table, last_operation_time='2000-01-11 00:00:00.000000'):
         self.sql.execute(
             'SELECT * ' +
-            'FROM activity ' +
-            'LIMIT 0,10'
+            f'FROM {table} ' +
+            f'WHERE last_operation_time >= "{last_operation_time}"' +
+            'ORDER BY last_operation_time ' +
+            'LIMIT 15'
         )
 
         query = self.sql.fetchall()
@@ -30,6 +30,7 @@ class HiveClient:
         return query
 
 
-client = HiveClient()
-response = client.query_database()
-test = 'test'
+# client = HiveClient()
+# new_stream = stream.ActProcMatrixDsc(client)
+# response = client.query_database('activity')
+# test = 'test'
