@@ -1,5 +1,3 @@
-import pytest
-import json
 import tap_brightview.helpers as helper
 
 def test_create_table_list():
@@ -24,5 +22,6 @@ def test_sql_to_json():
     json_response = helper.create_json_response(json_schema, response)
 
     assert isinstance(json_response, list)
+    assert json_response[0] != json_response[1] 
     assert len(json_response) > 1
     assert isinstance(json_response[0], dict)

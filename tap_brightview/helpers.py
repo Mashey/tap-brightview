@@ -41,11 +41,12 @@ def create_json_response(json_schema, response):
     json_response = []
 
     for row in response:
-        schema_properties = json_schema['properties']
         key_value_pairs = list(zip(schema_keys, row))
+        schema_properties = {}
 
         for pair in key_value_pairs:
             schema_properties[pair[0]] = pair[1]
-            json_response.append(schema_properties)
+
+        json_response.append(schema_properties)
 
     return json_response

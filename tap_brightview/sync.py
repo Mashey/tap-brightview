@@ -32,7 +32,7 @@ def sync(config, state, catalog):
                 stream.replication_key
             )
 
-            for record in stream_obj.sync():
+            for record in stream_obj.records_sync(table_name=tap_stream_id):
                 transformed_record = transformer.transform(
                     record, stream_schema, stream_metadata)
                 LOGGER.info(f"Writing record: {transformed_record}")
@@ -44,7 +44,7 @@ def sync(config, state, catalog):
             # If there is a Bookmark or state based key to store
             # state = singer.clear_bookmark(
             #     state, tap_stream_id, BOOKMARK_KEY)
-            singer.write_state(state, tap_stream_id)
+            # singer.write_state(state, tap_stream_id)
 
     state = singer.set_currently_syncing(state, None)
     singer.write_state(state)

@@ -6,12 +6,12 @@ import jpype
 class HiveClient:
     def __init__(self):
         load_dotenv()
-        USER = os.getenv("USER")
-        PASSWORD = os.getenv("PASSWORD")
+        BV_USER = os.getenv("BV_USER")
+        BV_PASSWORD = os.getenv("BV_PASSWORD")
         self.client = jaydebeapi.connect(
             "com.simba.hive.jdbc.HS2Driver",
             "jdbc:hive2://bdgw.qualifacts.org:443/brightview_prod;ssl=1;transportMode=http;httpPath=gateway/default/llap",
-            [USER, PASSWORD],
+            [BV_USER, BV_PASSWORD],
             "./HiveJDBC42.jar",
         )
         self.sql = self.client.cursor()
