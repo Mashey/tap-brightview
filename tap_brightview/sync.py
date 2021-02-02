@@ -1,16 +1,16 @@
 import singer
 from singer import Transformer, metadata
 
-# The client name needs to be filled in here
-# from tap_brightview.client import CLIENT_CLASS_NAME
-# from tap_brightview.streams import STREAMS
+The client name needs to be filled in here
+from tap_brightview.client import HiveClient
+from tap_brightview.streams import STREAMS
 
 LOGGER = singer.get_logger()
 
 
 def sync(config, state, catalog):
     # Any client required PARAMETERS to hit the endpoint
-    client = CLIENT_CLASS_NAME(CLIENT_PARAMETERS_HERE)
+    client = HiveClient()
 
     with Transformer() as transformer:
         for stream in catalog.get_selected_streams(state):
@@ -32,8 +32,8 @@ def sync(config, state, catalog):
                 stream.replication_key
             )
 
-            client = CLIENT_CLASS_NAME(CLIENT_PARAMETERS_HERE)
-            for record in stream_obj.sync(CLIENT_PARAMETERS_HERE):
+            client = HiveClient()
+            for record in stream_obj.sync():
                 transformed_record = transformer.transform(
                     record, stream_schema, stream_metadata)
                 LOGGER.info(f"Writing record: {transformed_record}")
