@@ -41,25 +41,15 @@ class Activity(IncrementalStream):
 
     def records_sync(self, table_name):
         json_schema = helper.open_json_schema(table_name)
-        response_length = 25
-        while response_length >= 25:
+        response_length = 1000
+        while response_length >= 1000:
             response = self.client.query_database(table_name)
             response_length = len(response)
             json_response = helper.create_json_response(json_schema, response)
             for row in json_response:
-                singer.write_bookmark(
-                    self.state,
-                    self.tap_stream_id,
-                    self.replication_key,
-                    row['last_operation_time']
-                )
-                singer.write_state(
-                    {f'{table_name}': {'last_operation_time': row['last_operation_time']}}
-                )
-
                 yield row
             
-            if response_length < 25:
+            if response_length < 1000:
                 LOGGER.info(f'{table_name} sync completed.')
                 self.client.sql.close()
                 self.client.client.close()

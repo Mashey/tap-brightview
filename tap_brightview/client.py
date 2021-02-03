@@ -22,7 +22,7 @@ class HiveClient:
             f'FROM {table} ' +
             f'WHERE last_operation_time >= "{last_operation_time}"' +
             'ORDER BY last_operation_time ' +
-            'LIMIT 15'
+            'LIMIT 1000'
         )
 
         query = self.sql.fetchall()
