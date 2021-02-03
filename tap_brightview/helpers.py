@@ -50,3 +50,10 @@ def create_json_response(json_schema, response):
         json_response.append(schema_properties)
 
     return json_response
+
+
+def open_state_file():
+    with open('./state.json') as state_file:
+        state = json.load(state_file)
+
+    return state
