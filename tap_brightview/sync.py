@@ -33,6 +33,10 @@ def sync(config, state, catalog):
             )
             state_file = helper.open_state_file()
 
+            # Something that concerns me a bit is when the state.json file is opened in write mode
+            # it clears all existing data from the file. The state_file variable contains the existing
+            # state.json data as a dict. My concern is if the record loop exits before writing a new bookmark,
+            # how do we ensure state.json has the necessary bookmarks?
             with open('./state.json', 'w') as current_state:
 
                 for record in stream_obj.records_sync(table_name=tap_stream_id):
