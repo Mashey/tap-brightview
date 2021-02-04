@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "cs_batch_client_claim_tran_id": {
             "type": [

@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "act_proc_matrix_dsc_id": {
             "type": [

@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperites": false,
     "properties": {
         "activity_procedure_addon_id": {
             "type": [
