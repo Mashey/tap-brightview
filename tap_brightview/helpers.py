@@ -1,5 +1,5 @@
 import json
-import tap_brightview.service as service
+from tap_brightview.client import HiveClient
 from schema_builder import build_json_schema
 
 
@@ -17,8 +17,8 @@ def create_table_list(tables_path):
 
 def create_json_schemas(file_path):
     table_list = create_table_list(file_path)
-    client = service.create_client()
-    sql = service.create_sql_cursor(client)
+    client = HiveClient()
+    sql = client.sql()
 
     for table in table_list:
         sql.execute(f"DESCRIBE FORMATTED brightview_prod.{table}")
