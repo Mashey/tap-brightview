@@ -3,7 +3,7 @@ import os
 
 from singer import metadata
 from singer.catalog import Catalog
-from .streams import STREAMS
+from tap_brightview.streams import STREAMS
 
 
 def get_abs_path(path):
