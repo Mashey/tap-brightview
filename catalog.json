@@ -1,0 +1,1260 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "activity",
+      "schema": {
+        "properties": {
+          "activity_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "begin_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "end_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "activity_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "block_type_dsc_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "billable": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "overlap": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mark_future": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "move_timesheet": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "activity_group_dsc_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "timesheet_cat_dsc_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "bill_unit": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "bill_frequency": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "staff_unit": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "staff_frequency": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "gl_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "organization_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "created_by": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "created_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "changed_by": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "changed_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unit_calculation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "req_refer_phy": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ndc_code_num": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "tos": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "nearest_unit": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "bonus_min": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "core_service_code_dsc_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "modality_code_dsc_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "crs_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "non_bill_min_yn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "show_add_appt_stat_yn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "darts_include_in_count": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "is_video_counseling": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "darts_activity_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "axis": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cpt_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "transportation_yn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ndc_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mobile_exportable_yn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "overlap_same_activity": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "multiple_staff_entry_yn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "activity_time_types_yn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "direct_time": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "documentation_time": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "travel_time": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "other_time": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "payer_contract_yn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "last_commit_time": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "last_operation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "last_operation_ingest": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "last_operation_time": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "stream": "activity",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "activity_id"
+            ],
+            "forced-replication-method": "INCREMENTAL",
+            "inclusion": "available",
+            "valid-replication-keys": [
+              "last_operation_time"
+            ],
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "activity_id"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "code"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "description"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "begin_date"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "end_date"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "activity_type"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "block_type_dsc_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "billable"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "overlap"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "mark_future"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "move_timesheet"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "activity_group_dsc_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "timesheet_cat_dsc_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "bill_unit"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "bill_frequency"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "staff_unit"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "staff_frequency"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "gl_code"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "organization_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "created_by"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "created_date"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "changed_by"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "changed_date"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_calculation"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "req_refer_phy"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ndc_code_num"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "tos"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "nearest_unit"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "bonus_min"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "core_service_code_dsc_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "modality_code_dsc_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "crs_code"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "non_bill_min_yn"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "show_add_appt_stat_yn"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "darts_include_in_count"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "is_video_counseling"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "darts_activity_code"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "axis"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "cpt_type"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "transportation_yn"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ndc_code"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "mobile_exportable_yn"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "overlap_same_activity"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "multiple_staff_entry_yn"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "activity_time_types_yn"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "direct_time"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "documentation_time"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "travel_time"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "other_time"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "payer_contract_yn"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_commit_time"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_operation"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_operation_ingest"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_operation_time"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "address",
+      "schema": {
+        "properties": {
+          "address_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "street1": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "street2": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "apt_suite": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "po_box": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "county": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zip": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "zip_plus_four": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "directions": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "country_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "longitude": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "latitude": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "source_of_lat_long": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "last_lat_long_update_datetime": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "created_by": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "created_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "changed_by": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "changed_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "deleted_by": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "village_dsc_id": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "last_commit_time": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "last_operation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "last_operation_ingest": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "last_operation_time": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "stream": "address",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "address_id"
+            ],
+            "forced-replication-method": "INCREMENTAL",
+            "inclusion": "available",
+            "valid-replication-keys": [
+              "created_date"
+            ],
+            "selected": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "address_id"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "street1"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "street2"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "apt_suite"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "po_box"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "city"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "county"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "state"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "zip"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "zip_plus_four"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "directions"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "country_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "longitude"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "latitude"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "source_of_lat_long"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_lat_long_update_datetime"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "created_by"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "created_date"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "changed_by"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "changed_date"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "deleted_by"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "village_dsc_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_commit_time"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_operation"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_operation_ingest"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_operation_time"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    }
+  ]
+}
