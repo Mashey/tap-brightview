@@ -9,7 +9,6 @@ LOGGER = singer.get_logger()
 
 
 def sync(config, state, catalog):
-    records_count = []
     with Transformer() as transformer:
         for stream in catalog.get_selected_streams(state):
             records_written = 0
@@ -57,7 +56,7 @@ def sync(config, state, catalog):
 
                 except:
                     LOGGER.info(f'An Error happened during {tap_stream_id} stream.')
-                    raise
+                    continue
                 finally:
                     bookmark = singer.get_bookmark(
                         state,
@@ -78,10 +77,13 @@ def sync(config, state, catalog):
             # If we can find a way to create the bookmark after each record that would be cool, BUT
             # I don't want to spend forever trying to figure it out
 
-            records_count.append(records_written)
-            LOGGER.info(
-                f'Number of Records: {records_written}')
+            if records_written == 0:
+                LOGGER.info(
+                    f'No records found for {tap_stream_id}')
+            else:
+                LOGGER.info(
+                    f'Number of Records: {records_written}')
 
-    LOGGER.info(f'Records written per stream: {records_count}')
+
     state = singer.set_currently_syncing(state, None)
     # singer.write_state(state)
