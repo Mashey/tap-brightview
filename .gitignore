@@ -7,3 +7,4 @@ tests/cassettes
 *.DS_Store
 tap_brightview.egg-info
 poetry.lock
+test.json
