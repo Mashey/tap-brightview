@@ -2,18 +2,18 @@ import singer
 import json
 from singer import Transformer, metadata, bookmarks
 import tap_brightview.helpers as helper
-from tap_brightview.streams import STREAMS
 
 
 LOGGER = singer.get_logger()
 
-
-def sync(config, state, catalog):
+def sync(config, state, catalog, stream_collection):
+    error_count = 0
+    records_count = []
     with Transformer() as transformer:
         for stream in catalog.get_selected_streams(state):
             records_written = 0
             tap_stream_id = stream.tap_stream_id
-            stream_obj = STREAMS[tap_stream_id](state)
+            stream_obj = stream_collection[tap_stream_id](state)
             replication_key = stream_obj.replication_key
             stream_schema = stream.schema.to_dict()
             stream_metadata = metadata.to_map(stream.metadata)
@@ -55,7 +55,17 @@ def sync(config, state, catalog):
                         )
 
                 except:
-                    LOGGER.info(f'An Error happened during {tap_stream_id} stream.')
+                    LOGGER.info(f'An Error happened during {tap_stream_id} stream.  Stream bookmarked and will be attempted after sync')
+                    error_count += 1
+                    bookmark = singer.get_bookmark(
+                        state,
+                        tap_stream_id,
+                        replication_key
+                    )
+                    state_file["bookmarks"][tap_stream_id][replication_key] = bookmark
+                    new_state = json.dumps(state_file, indent=4)
+                    current_state.write(new_state)
+                    current_state.close()
                     continue
                 finally:
                     bookmark = singer.get_bookmark(
@@ -68,6 +78,7 @@ def sync(config, state, catalog):
                     current_state.write(new_state)
                     LOGGER.info(
                         f'Bookmark created for {tap_stream_id} stream = {replication_key}: {bookmark}')
+                    records_count.append(records_written)
 
 
             # I had to move the bookmark creation block out of the record loop
@@ -84,6 +95,6 @@ def sync(config, state, catalog):
                 LOGGER.info(
                     f'Number of Records: {records_written}')
 
+        LOGGER.info(f'Finished with {error_count} errors and this many records {records_count}')
 
     state = singer.set_currently_syncing(state, None)
-    # singer.write_state(state)
