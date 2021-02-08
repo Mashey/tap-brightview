@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "client_record_inv_change_id": {
             "type": [

@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "activity_id": {
             "type": [

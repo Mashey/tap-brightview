@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "audit_log_id": {
             "type": [

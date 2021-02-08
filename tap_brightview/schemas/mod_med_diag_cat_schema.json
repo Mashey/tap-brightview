@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "mod_med_diag_cat_id": {
             "type": [

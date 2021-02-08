@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "treatment_plan_grid_lab_id": {
             "type": [

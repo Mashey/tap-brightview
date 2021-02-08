@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "macsis_enrollment_form_d_id": {
             "type": [

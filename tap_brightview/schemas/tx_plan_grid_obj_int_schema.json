@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "tx_plan_grid_obj_int_id": {
             "type": [

@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "edi_835_adj_org_payer_plan_id": {
             "type": [

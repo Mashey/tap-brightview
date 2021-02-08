@@ -3,6 +3,7 @@
         "object",
         "null"
     ],
+    "additionalProperties": false,
     "properties": {
         "mod_sub_abuse_dtl_dsc_id": {
             "type": [
