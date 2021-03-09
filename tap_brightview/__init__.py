@@ -5,7 +5,7 @@ from tap_brightview.sync import sync
 from tap_brightview.streams import STREAMS
 
 # Fill in any required config keys from the config.json here
-REQUIRED_CONFIG_KEYS = []
+REQUIRED_CONFIG_KEYS = ["BV_USER", "BV_PASSWORD"]
 
 LOGGER = singer.get_logger()
 
