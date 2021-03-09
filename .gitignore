@@ -8,3 +8,5 @@ tests/cassettes
 tap_brightview.egg-info
 poetry.lock
 test.json
+catalog.json
+state.json
