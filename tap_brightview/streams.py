@@ -6,8 +6,7 @@ from tap_brightview.client import HiveClient
 LOGGER = singer.get_logger()
 
 
-class Stream:
-    client = HiveClient()
+class Stream():
     table_name = ''
     tap_stream_id = None
     key_properties = []
@@ -19,11 +18,14 @@ class Stream:
     offset = 0
     limit = 0
     
-
-    def __init__(self, state):
+    def __init__(self, state, config):
         self.state = state
+        self.config = config
+        
+
 
     def records_sync(self):
+        client = HiveClient(self.config)
         query_attempts = 1
         json_schema = helper.open_json_schema(self.table_name)
         bookmark_value = singer.get_bookmark(
@@ -35,7 +37,7 @@ class Stream:
 
         while self.response_length >= self.limit:
             LOGGER.info(f'Sending Query: {query_attempts}')
-            response = self.client.query_database(
+            response = client.query_database(
                 self.table_name,
                 limit=self.limit,
                 offset=self.offset,
