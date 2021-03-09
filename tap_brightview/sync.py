@@ -12,7 +12,7 @@ def sync(config, state, catalog, stream_collection):
         for stream in catalog.get_selected_streams(state):
             records_written = 0
             tap_stream_id = stream.tap_stream_id
-            stream_obj = stream_collection[tap_stream_id](state)
+            stream_obj = stream_collection[tap_stream_id](state, config)
             replication_key = stream_obj.replication_key
             stream_schema = stream.schema.to_dict()
             stream_metadata = metadata.to_map(stream.metadata)
