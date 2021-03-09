@@ -1,14 +1,11 @@
-from dotenv import load_dotenv
-import os
 import jaydebeapi
 import jpype
 
 
 class HiveClient:
-    def __init__(self):
-        load_dotenv()
-        self.BV_USER = os.getenv("BV_USER")
-        self.BV_PASSWORD = os.getenv("BV_PASSWORD")
+    def __init__(self, config):
+        self.BV_USER = config["BV_USER"]
+        self.BV_PASSWORD = config["BV_PASSWORD"]
         self.client = self.setup_connection()
         self.sql = self.client.cursor()
 
