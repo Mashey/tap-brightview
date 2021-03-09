@@ -31,7 +31,7 @@ class HiveClient:
         limit=1000,
         offset=0,
         limit_key='last_operation_time',
-        limit_key_value='2000-01-11 00:00:00.000000'
+        limit_key_value='1970-01-11 00:00:00.000000'
     ):
         if table == 'procedure':
             self.sql.execute(
