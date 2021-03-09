@@ -6,9 +6,8 @@ import tap_brightview.helpers as helper
 
 LOGGER = singer.get_logger()
 
+
 def sync(config, state, catalog, stream_collection):
-    error_count = 0
-    records_count = []
     with Transformer() as transformer:
         for stream in catalog.get_selected_streams(state):
             records_written = 0
@@ -20,8 +19,7 @@ def sync(config, state, catalog, stream_collection):
 
             LOGGER.info(f'Staring sync for stream: {tap_stream_id}')
 
-            LOGGER.info(f'Setting initial state: {state}')
-            state = singer.set_currently_syncing(state, tap_stream_id)
+            singer.set_currently_syncing(state, tap_stream_id)
             singer.write_state(state)
             singer.write_schema(
                 tap_stream_id,
@@ -29,64 +27,18 @@ def sync(config, state, catalog, stream_collection):
                 stream_obj.key_properties,
                 stream.replication_key
             )
-            state_file = helper.open_state_file()
 
-            # Something that concerns me a bit is when the state.json file is opened in write mode
-            # it clears all existing data from the file. The state_file variable contains the existing
-            # state.json data as a dict. My concern is if the record loop exits before writing a new bookmark,
-            # how do we ensure state.json has the necessary bookmarks?
-            with open('./state.json', 'w') as current_state:
-                try:
-                    for record in stream_obj.records_sync():
-                        transformed_record = transformer.transform(
-                            record, stream_schema, stream_metadata)
+            for record in stream_obj.records_sync():
+                transformed_record = transformer.transform(
+                    record, stream_schema, stream_metadata)
 
-                        LOGGER.info(f"Writing record: {transformed_record}")
-                        singer.write_record(
-                            tap_stream_id,
-                            transformed_record,
-                        )
-                        records_written += 1
-                        singer.write_bookmark(
-                            stream_obj.state,
-                            tap_stream_id,
-                            replication_key,
-                            record[stream_obj.replication_key]
-                        )
+                # LOGGER.info(f"Writing record: {records_written}")
+                singer.write_record(
+                    tap_stream_id,
+                    transformed_record,
+                )
+                records_written += 1
 
-                except:
-                    LOGGER.info(f'An Error happened during {tap_stream_id} stream.  Stream bookmarked and will be attempted after sync')
-                    error_count += 1
-                    bookmark = singer.get_bookmark(
-                        state,
-                        tap_stream_id,
-                        replication_key
-                    )
-                    state_file["bookmarks"][tap_stream_id][replication_key] = bookmark
-                    new_state = json.dumps(state_file, indent=4)
-                    current_state.write(new_state)
-                    current_state.close()
-                    continue
-                finally:
-                    bookmark = singer.get_bookmark(
-                        state,
-                        tap_stream_id,
-                        replication_key
-                    )
-                    state_file["bookmarks"][tap_stream_id][replication_key] = bookmark
-                    new_state = json.dumps(state_file, indent=4)
-                    current_state.write(new_state)
-                    LOGGER.info(
-                        f'Bookmark created for {tap_stream_id} stream = {replication_key}: {bookmark}')
-                    records_count.append(records_written)
-
-
-            # I had to move the bookmark creation block out of the record loop
-            # If the block is moved in the record loop a bookmark is added to state.json for each record
-            # This means that we can only bookmark after a successful batch, which kind of makes me nervous
-            # However, it might not be a big deal if an error occurs and we exit the loop
-            # If we can find a way to create the bookmark after each record that would be cool, BUT
-            # I don't want to spend forever trying to figure it out
 
             if records_written == 0:
                 LOGGER.info(
@@ -94,7 +46,14 @@ def sync(config, state, catalog, stream_collection):
             else:
                 LOGGER.info(
                     f'Number of Records: {records_written}')
+                singer.write_bookmark(
+                    state,
+                    tap_stream_id,
+                    replication_key,
+                    record[stream_obj.replication_key]
+                )
+                    
 
-        LOGGER.info(f'Finished with {error_count} errors and this many records {records_count}')
 
     state = singer.set_currently_syncing(state, None)
+    singer.write_state(state)
