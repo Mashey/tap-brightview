@@ -27,6 +27,7 @@ class Stream():
     def records_sync(self):
         client = HiveClient(self.config)
         query_attempts = 1
+        restart_count = 0
         json_schema = helper.open_json_schema(self.table_name)
         bookmark_value = singer.get_bookmark(
             self.state,
@@ -36,33 +37,43 @@ class Stream():
         )
 
         while self.response_length >= self.limit:
-            LOGGER.info(f'Sending Query: {query_attempts}')
-            response = client.query_database(
-                self.table_name,
-                limit=self.limit,
-                offset=self.offset,
-                id=self.key_properties[0],
-                limit_key=self.replication_key,
-                limit_key_value=bookmark_value
-            )
-            query_attempts += 1
-            if self.offset == 0:
-                self.offset += 1
-            
-            self.offset += (self.limit)
-            self.response_length = len(response)
-            json_response = helper.create_json_response(json_schema, response)
+            try:
+                LOGGER.info(f'Sending Query: {query_attempts}')
+                response = client.query_database(
+                    self.table_name,
+                    limit=self.limit,
+                    offset=self.offset,
+                    id=self.key_properties[0],
+                    limit_key=self.replication_key,
+                    limit_key_value=bookmark_value
+                )
+                query_attempts += 1
+                if self.offset == 0:
+                    self.offset += 1
+                
+                self.offset += (self.limit)
+                self.response_length = len(response)
+                json_response = helper.create_json_response(json_schema, response)
 
-            for row in json_response:
-                yield row
+                for row in json_response:
+                    yield row
 
-            if self.response_length < self.limit:
-                # self.client.sql.close()
-                # self.client.client.close()
-                LOGGER.info(f'{self.table_name} sync completed.')
-                LOGGER.info(
-                    f'Creating bookmark for {self.tap_stream_id} stream in state.json')
+                if self.response_length < self.limit:
+                    # self.client.sql.close()
+                    # self.client.client.close()
+                    LOGGER.info(f'{self.table_name} sync completed.')
+                    LOGGER.info(
+                        f'Creating bookmark for {self.tap_stream_id} stream in state.json')
 
+            except:
+                LOGGER.info('Restarting Client')
+                restart_count += 1
+                singer.write_bookmark(self.state,
+                                      self.tap_stream_id,
+                                      'restarts',
+                                      restart_count)
+                client = HiveClient(self.config)
+                continue
 
 class IncrementalStream(Stream):
     replication_method = 'INCREMENTAL'
