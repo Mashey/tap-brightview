@@ -1,7 +1,9 @@
 import json
+import os
 from tap_brightview.client import HiveClient
 from schema_builder import build_json_schema
 
+directory = os.path.dirname(os.path.realpath(__file__))
 
 def create_table_list(tables_path):
     with open(f'{tables_path}') as tables:
@@ -30,7 +32,7 @@ def create_json_schemas(file_path):
 
 
 def open_json_schema(table_name):
-    with open(f'./tap_brightview/schemas/{table_name}_schema.json') as schema:
+    with open(f'{directory}/schemas/{table_name}_schema.json') as schema:
         json_schema = json.load(schema)
 
     return json_schema
