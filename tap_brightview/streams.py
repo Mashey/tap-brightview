@@ -1,5 +1,5 @@
 import singer
-import json
+import sys
 import tap_brightview.helpers as helper
 from tap_brightview.client import HiveClient
 
@@ -65,15 +65,19 @@ class Stream():
                     LOGGER.info(
                         f'Creating bookmark for {self.tap_stream_id} stream in state.json')
 
-            except:
-                LOGGER.info('Restarting Client')
-                restart_count += 1
-                singer.write_bookmark(self.state,
-                                      self.tap_stream_id,
-                                      'restarts',
-                                      restart_count)
-                client = HiveClient(self.config)
-                continue
+            except Exception as e:
+                if e.getErrorCode() == 500593:
+                    LOGGER.info('Restarting Client')
+                    restart_count += 1
+                    singer.write_bookmark(self.state,
+                                        self.tap_stream_id,
+                                        'restarts',
+                                        restart_count)
+                    client = HiveClient(self.config)
+                    continue
+                else:
+                    LOGGER.critical(f'Exit with error: {e}')
+                    sys.exit(1)
 
 class IncrementalStream(Stream):
     replication_method = 'INCREMENTAL'
