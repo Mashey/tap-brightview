@@ -10,9 +10,6 @@ class HiveClient:
         self.sql = self.client.cursor()
 
     def setup_connection(self):
-        if jpype.isJVMStarted() and not jpype.isThreadAttachedToJVM():
-            jpype.attachThreadToJVM()
-            jpype.java.lang.Thread.currentThread().setContextClassLoader(jpype.java.lang.ClassLoader.getSystemClassLoader())
         connection = jaydebeapi.connect(
             "com.simba.hive.jdbc.HS2Driver",
             "jdbc:hive2://bdgw.qualifacts.org:443/brightview_prod;ssl=1;transportMode=http;httpPath=gateway/default/llap",
