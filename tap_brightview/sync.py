@@ -2,6 +2,7 @@ import singer
 import json
 from singer import Transformer, metadata, bookmarks
 import tap_brightview.helpers as helper
+import time
 
 
 LOGGER = singer.get_logger()
@@ -10,6 +11,7 @@ LOGGER = singer.get_logger()
 def sync(config, state, catalog, stream_collection):
     with Transformer() as transformer:
         for stream in catalog.get_selected_streams(state):
+            start = time.perf_counter()
             records_written = 0
             tap_stream_id = stream.tap_stream_id
             stream_obj = stream_collection[tap_stream_id](state, config)
@@ -44,6 +46,9 @@ def sync(config, state, catalog, stream_collection):
                 LOGGER.info(
                     f'No records found for {tap_stream_id}')
             else:
+                stop = time.perf_counter()
+                elasped_time = stop - start
+                LOGGER.info(f'{tap_stream_id} completed in {elasped_time:0.4f} seconds. {elasped_time / records_written} rps')
                 LOGGER.info(
                     f'Number of Records: {records_written}')
                 singer.write_bookmark(
