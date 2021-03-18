@@ -10,12 +10,12 @@ def get_abs_path(path):
     return os.path.join(os.path.dirname(os.path.realpath(__file__)), path)
 
 
-def get_schemas():
+def get_schemas(day):
 
     schemas = {}
     schemas_metadata = {}
 
-    for stream_name, stream_object in STREAMS.items():
+    for stream_name, stream_object in STREAMS[day].items():
         schema_path = get_abs_path(f'schemas/{stream_name}_schema.json')
         with open(schema_path) as file:
             schema = json.load(file)
@@ -43,8 +43,8 @@ def get_schemas():
     return schemas, schemas_metadata
 
 
-def discover():
-    schemas, schemas_metadata = get_schemas()
+def discover(day):
+    schemas, schemas_metadata = get_schemas(day=day)
     streams = []
 
     for schema_name, schema in schemas.items():
