@@ -9,8 +9,8 @@ LOGGER = singer.get_logger()
 
 
 def sync(config, state, catalog, stream_collection):
-    total_records = []
-    stream_rps = []
+    # total_records = []
+    # stream_rps = []
 
     with Transformer() as transformer:
         for stream in catalog.get_selected_streams(state):
@@ -47,12 +47,12 @@ def sync(config, state, catalog, stream_collection):
             if records_written == 0:
                 LOGGER.info(f"No records found for {tap_stream_id}")
             else:
-                info, rps = metrics(
-                    start=start, end=time.perf_counter(), records=records_written
-                )
-                stream_rps.append(rps)
-                LOGGER.info(f"{info}")
-                singer.write_bookmark(state, tap_stream_id, "metrics", info)
+                # info, rps = metrics(
+                #     start=start, end=time.perf_counter(), records=records_written
+                # )
+                # stream_rps.append(rps)
+                # LOGGER.info(f"{info}")
+                # singer.write_bookmark(state, tap_stream_id, "metrics", info)
 
                 singer.write_bookmark(
                     state,
@@ -62,13 +62,13 @@ def sync(config, state, catalog, stream_collection):
                 )
 
     state = singer.set_currently_syncing(state, None)
-    overall_rps = overall_metrics(total_records, stream_rps)
-    singer.write_bookmark(
-        state,
-        "Overall",
-        "metrics",
-        f"Records: {sum(total_records)} / RPS: {overall_rps:0.6}",
-    )
+    # overall_rps = overall_metrics(total_records, stream_rps)
+    # singer.write_bookmark(
+    #     state,
+    #     "Overall",
+    #     "metrics",
+    #     f"Records: {sum(total_records)} / RPS: {overall_rps:0.6}",
+    # )
     singer.write_state(state)
 
 
