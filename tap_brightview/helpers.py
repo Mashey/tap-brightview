@@ -5,8 +5,9 @@ from schema_builder import build_json_schema
 
 directory = os.path.dirname(os.path.realpath(__file__))
 
+
 def create_table_list(tables_path):
-    with open(f'{tables_path}') as tables:
+    with open(f"{tables_path}") as tables:
         table_data = tables.readlines()
 
     clean_data = []
@@ -32,14 +33,14 @@ def create_table_list(tables_path):
 
 
 def open_json_schema(table_name):
-    with open(f'{directory}/schemas/{table_name}_schema.json') as schema:
+    with open(f"{directory}/schemas/{table_name}_schema.json") as schema:
         json_schema = json.load(schema)
 
     return json_schema
 
 
 def create_json_response(json_schema, row):
-    schema_keys = list(json_schema['properties'])
+    schema_keys = list(json_schema["properties"])
 
     key_value_pairs = list(zip(schema_keys, row))
     schema_properties = {}
@@ -50,9 +51,8 @@ def create_json_response(json_schema, row):
     return schema_properties
 
 
-
 def open_state_file():
-    with open('./state.json') as state_file:
+    with open("./state.json") as state_file:
         state = json.load(state_file)
 
     return state

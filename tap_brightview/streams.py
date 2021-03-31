@@ -64,19 +64,16 @@ class Stream:
                     client.client.close()
 
             except Exception as e:
-                if e.getErrorCode() == 500593:
-                    client.sql.close()
-                    client.client.close()
-                    LOGGER.info("Restarting Client")
-                    restart_count += 1
-                    singer.write_bookmark(
-                        self.state, self.tap_stream_id, "restarts", restart_count
-                    )
-                    client = HiveClient(self.config)
-                    continue
-                else:
-                    LOGGER.critical(f"Exit with error: {e}")
-                    sys.exit(1)
+                LOGGER.warning(f"Client error {e} :: Closing SQL and Connection.")
+                client.sql.close()
+                client.client.close()
+                LOGGER.info("Restarting Client")
+                restart_count += 1
+                singer.write_bookmark(
+                    self.state, self.tap_stream_id, "restarts", restart_count
+                )
+                client = HiveClient(self.config)
+                continue
 
 
 class IncrementalStream(Stream):
@@ -4465,14 +4462,8 @@ STREAMS_6 = {
     "tx_plan_grid_sub_prob": TxPlanGridSubProb,
 }
 
-STREAMS = [STREAMS_0,
-           STREAMS_1,
-           STREAMS_2,
-           STREAMS_3,
-           STREAMS_4,
-           STREAMS_5,
-           STREAMS_6]
-           
+STREAMS = [STREAMS_0, STREAMS_1, STREAMS_2, STREAMS_3, STREAMS_4, STREAMS_5, STREAMS_6]
+
 STREAMS_NOT_SYNCD = {
     #   'act_proc_matrix_dsc': ActProcMatrixDsc,
     #   'activity_detail_dsc': ActivityDetailDsc,
