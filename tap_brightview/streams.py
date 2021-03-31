@@ -64,19 +64,16 @@ class Stream:
                     client.client.close()
 
             except Exception as e:
-                if e.getErrorCode() == 500593:
-                    client.sql.close()
-                    client.client.close()
-                    LOGGER.info("Restarting Client")
-                    restart_count += 1
-                    singer.write_bookmark(
-                        self.state, self.tap_stream_id, "restarts", restart_count
-                    )
-                    client = HiveClient(self.config)
-                    continue
-                else:
-                    LOGGER.critical(f"Exit with error: {e}")
-                    sys.exit(1)
+                LOGGER.warning(f'Client error {e} :: Closing SQL and Connection.')
+                client.sql.close()
+                client.client.close()
+                LOGGER.info("Restarting Client")
+                restart_count += 1
+                singer.write_bookmark(
+                    self.state, self.tap_stream_id, "restarts", restart_count
+                )
+                client = HiveClient(self.config)
+                continue
 
 
 class IncrementalStream(Stream):
