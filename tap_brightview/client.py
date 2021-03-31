@@ -22,28 +22,34 @@ class HiveClient:
         )
         return connection
 
-    def query_database(self, schema, table, id,
-                       limit=1000, offset=0, limit_key='last_operation_time',
-                       limit_key_value='1970-01-11 00:00:00.000000'
-                       ):
-        
+    def query_database(
+        self,
+        schema,
+        table,
+        id,
+        limit=1000,
+        offset=0,
+        limit_key="last_operation_time",
+        limit_key_value="1970-01-11 00:00:00.000000",
+    ):
+
         row_count = 0
-        order_by = f'ORDER BY {limit_key}, {id} '
+        order_by = f"ORDER BY {limit_key}, {id} "
 
         if id == None:
-            order_by = f'ORDER BY {limit_key} '
-                
-        LOGGER.info('Querying DB')
+            order_by = f"ORDER BY {limit_key} "
+
+        LOGGER.info("Querying DB")
         self.sql.execute(
-            'SELECT * ' +
-            f'FROM {table} ' +
-            f'WHERE {limit_key} >= "{limit_key_value}" ' +
-            order_by +
-            f'LIMIT {limit} OFFSET {offset}'
+            "SELECT * "
+            + f"FROM {table} "
+            + f'WHERE {limit_key} >= "{limit_key_value}" '
+            + order_by
+            + f"LIMIT {limit} OFFSET {offset}"
         )
 
-        LOGGER.info('Query Complete.  Starting rows')
-        row = ''
+        LOGGER.info("Query Complete.  Starting rows")
+        row = ""
 
         while row is not None:
             row_count += 1
@@ -52,5 +58,5 @@ class HiveClient:
                 self.sql._close_last()
                 return row
             if row_count % 10000 == 0:
-                LOGGER.info(f'Row count = {row_count}')
+                LOGGER.info(f"Row count = {row_count}")
             yield helper.create_json_response(schema, row)

@@ -64,7 +64,7 @@ class Stream:
                     client.client.close()
 
             except Exception as e:
-                LOGGER.warning(f'Client error {e} :: Closing SQL and Connection.')
+                LOGGER.warning(f"Client error {e} :: Closing SQL and Connection.")
                 client.sql.close()
                 client.client.close()
                 LOGGER.info("Restarting Client")
@@ -4462,14 +4462,8 @@ STREAMS_6 = {
     "tx_plan_grid_sub_prob": TxPlanGridSubProb,
 }
 
-STREAMS = [STREAMS_0,
-           STREAMS_1,
-           STREAMS_2,
-           STREAMS_3,
-           STREAMS_4,
-           STREAMS_5,
-           STREAMS_6]
-           
+STREAMS = [STREAMS_0, STREAMS_1, STREAMS_2, STREAMS_3, STREAMS_4, STREAMS_5, STREAMS_6]
+
 STREAMS_NOT_SYNCD = {
     #   'act_proc_matrix_dsc': ActProcMatrixDsc,
     #   'activity_detail_dsc': ActivityDetailDsc,
