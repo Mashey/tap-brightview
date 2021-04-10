@@ -14,9 +14,9 @@ class Stream:
     valid_replication_keys = []
     replication_key = "last_commit_time"
     object_type = ""
-    response_length = 10000
+    response_length = 10
     offset = 0
-    limit = 10000
+    limit = 10
 
     def __init__(self, state, config):
         self.state = state
@@ -3394,7 +3394,7 @@ STREAMS_4 = {
 }
 
 STREAMS_5 = {
-    "mv_impact_data": MvImpactData,
+    # "mv_impact_data": MvImpactData,
     "mv_impact_data_response": MvImpactDataResponse,
     "order_module": OrderModule,
     "order_master": OrderMaster,
