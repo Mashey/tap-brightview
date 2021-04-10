@@ -14,9 +14,9 @@ class Stream:
     valid_replication_keys = []
     replication_key = "last_commit_time"
     object_type = ""
-    response_length = 10
+    response_length = 10000
     offset = 0
-    limit = 10
+    limit = 10000
 
     def __init__(self, state, config):
         self.state = state
