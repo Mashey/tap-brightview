@@ -3267,10 +3267,10 @@ STREAMS_1 = {
     "deposit_audit": DepositAudit,
     "descriptor": Descriptor,
     "descriptor_mapped_value": DescriptorMappedValue,
-    "document": Document,
-    "document_audit": DocumentAudit,
+    # "document": Document,
+    # "document_audit": DocumentAudit,
     "document_grouping": DocumentGrouping,
-    "document_signature": DocumentSignature,
+    # "document_signature": DocumentSignature,
     "document_signature_pad": DocumentSignaturePad,
 }
 
