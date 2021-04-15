@@ -17,7 +17,7 @@ class HiveClient:
         connection = jaydebeapi.connect(
             "com.simba.hive.jdbc.HS2Driver",
             "jdbc:hive2://bdgw.qualifacts.org:443/brightview_prod;ssl=1;transportMode=http;httpPath=gateway/default/llap",
-            {"user": self.BV_USER, "password": self.BV_PASSWORD, "dontTrackOpenResources": "true"},
+            [self.BV_USER, self.BV_PASSWORD],
             "./HiveJDBC42.jar",
         )
         return connection
