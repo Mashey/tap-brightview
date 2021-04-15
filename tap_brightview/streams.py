@@ -343,8 +343,8 @@ class CfData(IncrementalStream):
     tap_stream_id = "cf_data"
     key_properties = ["cf_edit_id"]
     replication_method = "INCREMENTAL"
-    valid_replication_keys = ["last_commit_time"]
-    replication_key = "last_commit_time"
+    valid_replication_keys = ["created_date"]
+    replication_key = "created_date"
 
 
 class CfDataHist(IncrementalStream):
@@ -352,8 +352,8 @@ class CfDataHist(IncrementalStream):
     tap_stream_id = "cf_data_hist"
     key_properties = ["cf_edit_id"]
     replication_method = "INCREMENTAL"
-    valid_replication_keys = ["last_commit_time"]
-    replication_key = "last_commit_time"
+    valid_replication_keys = ["created_date"]
+    replication_key = "created_date"
 
 
 class Claim(IncrementalStream):
@@ -3228,50 +3228,50 @@ STREAMS_0 = {
 }
 
 STREAMS_1 = {
-    # "client": Client,
-    # "claim_followup_comment": ClaimFollowupComment,
-    # "client_co_pay": ClientCoPay,
-    # "client_liability": ClientLiability,
-    # "client_view": ClientView,
-    # "clinical_recon": ClinicalRecon,
-    # "client_allergy": ClientAllergy,
-    # "client_auth_procedure": ClientAuthProcedure,
-    # "client_balance": ClientBalance,
-    # "client_black_box": ClientBlackBox,
-    # "client_black_box_staff": ClientBlackBoxStaff,
-    # "client_episode": ClientEpisode,
-    # "client_episode_org_map": ClientEpisodeOrgMap,
-    # "client_episode_prefs": ClientEpisodePrefs,
-    # "client_group": ClientGroup,
-    # "client_guarantor": ClientGuarantor,
-    # "client_medication": ClientMedication,
-    # "client_message": ClientMessage,
-    # "client_payer_auth": ClientPayerAuth,
-    # "client_payer_plan": ClientPayerPlan,
-    # "client_payer_plan_date": ClientPayerPlanDate,
-    # "client_program": ClientProgram,
-    # "client_program_date": ClientProgramDate,
-    # "client_scanned_document": ClientScannedDocument,
-    # "client_sliding_scale": ClientSlidingScale,
-    # "client_staff": ClientStaff,
-    # "client_view_attempt": ClientViewAttempt,
-    # "code_system": CodeSystem,
-    # "collection_assignment": CollectionAssignment,
-    # "cs_batch": CsBatch,
-    # "cs_batch_client": CsBatchClient,
-    # "cs_batch_client_aging": CsBatchClientAging,
-    # "cs_batch_client_claim": CsBatchClientClaim,
-    # "cs_batch_client_claim_tran": CsBatchClientClaimTran,
-    # "deposit": Deposit,
-    # "deposit_activity": DepositActivity,
-    # "deposit_audit": DepositAudit,
-    # "descriptor": Descriptor,
-    # "descriptor_mapped_value": DescriptorMappedValue,
+    "client": Client,
+    "claim_followup_comment": ClaimFollowupComment,
+    "client_co_pay": ClientCoPay,
+    "client_liability": ClientLiability,
+    "client_view": ClientView,
+    "clinical_recon": ClinicalRecon,
+    "client_allergy": ClientAllergy,
+    "client_auth_procedure": ClientAuthProcedure,
+    "client_balance": ClientBalance,
+    "client_black_box": ClientBlackBox,
+    "client_black_box_staff": ClientBlackBoxStaff,
+    "client_episode": ClientEpisode,
+    "client_episode_org_map": ClientEpisodeOrgMap,
+    "client_episode_prefs": ClientEpisodePrefs,
+    "client_group": ClientGroup,
+    "client_guarantor": ClientGuarantor,
+    "client_medication": ClientMedication,
+    "client_message": ClientMessage,
+    "client_payer_auth": ClientPayerAuth,
+    "client_payer_plan": ClientPayerPlan,
+    "client_payer_plan_date": ClientPayerPlanDate,
+    "client_program": ClientProgram,
+    "client_program_date": ClientProgramDate,
+    "client_scanned_document": ClientScannedDocument,
+    "client_sliding_scale": ClientSlidingScale,
+    "client_staff": ClientStaff,
+    "client_view_attempt": ClientViewAttempt,
+    "code_system": CodeSystem,
+    "collection_assignment": CollectionAssignment,
+    "cs_batch": CsBatch,
+    "cs_batch_client": CsBatchClient,
+    "cs_batch_client_aging": CsBatchClientAging,
+    "cs_batch_client_claim": CsBatchClientClaim,
+    "cs_batch_client_claim_tran": CsBatchClientClaimTran,
+    "deposit": Deposit,
+    "deposit_activity": DepositActivity,
+    "deposit_audit": DepositAudit,
+    "descriptor": Descriptor,
+    "descriptor_mapped_value": DescriptorMappedValue,
     "document": Document,
     "document_audit": DocumentAudit,
-    # "document_grouping": DocumentGrouping,
-    # "document_signature": DocumentSignature,
-    # "document_signature_pad": DocumentSignaturePad,
+    "document_grouping": DocumentGrouping,
+    "document_signature": DocumentSignature,
+    "document_signature_pad": DocumentSignaturePad,
 }
 
 STREAMS_2 = {
@@ -3292,10 +3292,10 @@ STREAMS_2 = {
     "edi_835_adj_org_payer_plan": Edi835AdjOrgPayerPlan,
     "failed_login": FailedLogin,
     "edi_835": Edi835,
-    # "edi_835_adjustment": Edi835Adjustment,
+    "edi_835_adjustment": Edi835Adjustment,
     "edi_835_adjustment_reason": Edi835AdjustmentReason,
     "edi_835_plb": Edi835Plb,
-    # "edi_835_reference": Edi835Reference,
+    "edi_835_reference": Edi835Reference,
     # "edi_835_service": Edi835Service,
     "edi_835_transaction": Edi835Transaction,
     "edi_837": Edi837,
@@ -3324,6 +3324,8 @@ STREAMS_2 = {
 }
 
 STREAMS_3 = {
+    "cf_data": CfData,
+    "cf_data_hist": CfDataHist,
     "master_modifier_detail": MasterModifierDetail,
     "master_modifier_org_map": MasterModifierOrgMap,
     "measure": Measure,
