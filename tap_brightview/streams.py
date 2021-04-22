@@ -3338,7 +3338,6 @@ STREAMS_3 = {
     "claim_item": ClaimItem,
     "claim_item_activity": ClaimItemActivity,
     "claim_item_line": ClaimItemLine,
-    "claim_item_modifier": ClaimItemModifier,
     "client": Client,
     "client_episode": ClientEpisode,
     "client_payer_plan": ClientPayerPlan,
@@ -3360,6 +3359,7 @@ STREAMS_3 = {
     "staff_credential": StaffCredential,
     "trans_reason": TransReason,
     "transaction": Transaction,
+    "claim_item_modifier": ClaimItemModifier
 }
 
 # STREAMS_3 = {
