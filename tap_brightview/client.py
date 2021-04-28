@@ -38,6 +38,9 @@ class HiveClient:
 
         if id == None:
             order_by = f"ORDER BY {limit_key} "
+        
+        if table == "procedure":
+            table = "`procedure`"
 
         LOGGER.info("Querying DB")
         self.sql.execute(
