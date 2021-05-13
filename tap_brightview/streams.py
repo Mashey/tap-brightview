@@ -3223,7 +3223,7 @@ REQUIRED_TABLES = {
     "transaction": Transaction,
 }
 
-STREAMS_1 = {
+MONDAY = {
     "activity_error": ActivityError,
     "activity_procedure_addon": ActivityProcedureAddon,
     "activity_procedure_clm": ActivityProcedureClm,
@@ -3261,6 +3261,9 @@ STREAMS_1 = {
     "client_black_box": ClientBlackBox,
     "client_black_box_staff": ClientBlackBoxStaff,
     "client_episode_org_map": ClientEpisodeOrgMap,
+}
+
+TUESDAY = {
     "client_episode_prefs": ClientEpisodePrefs,
     "client_group": ClientGroup,
     "client_guarantor": ClientGuarantor,
@@ -3288,9 +3291,6 @@ STREAMS_1 = {
     "document_grouping": DocumentGrouping,
     "document_signature": DocumentSignature,
     "document_signature_pad": DocumentSignaturePad,
-}
-
-STREAMS_2 = {
     "dsm_diag_category": DsmDiagCategory,
     "dsm_diag_category_range": DsmDiagCategoryRange,
     "dsm_diagnosis": DsmDiagnosis,
@@ -3302,6 +3302,9 @@ STREAMS_2 = {
     "edi_271_eligible": Edi271Eligible,
     "edi_271_reference": Edi271Reference,
     "edi_271_subscriber": Edi271Subscriber,
+}
+
+WEDNESDAY = {
     "edi_271_subscriber_benefit": Edi271SubscriberBenefit,
     "edi_835_adj_org": Edi835AdjOrg,
     "edi_835_adj_org_matrix": Edi835AdjOrgMatrix,
@@ -3336,13 +3339,15 @@ STREAMS_2 = {
     "licensure": Licensure,
     "macsis_adm_dis": MacsisAdmDis,
     "macsis_adm_dis_data": MacsisAdmDisData,
-}
-
-STREAMS_3 = {
     "master_modifier": MasterModifier,
     "master_modifier_detail": MasterModifierDetail,
     "master_modifier_org_map": MasterModifierOrgMap,
     "measure": Measure,
+}
+
+
+
+THURSDAY = {
     "measure_question": MeasureQuestion,
     "measure_question_val": MeasureQuestionVal,
     "measure_section": MeasureSection,
@@ -3381,6 +3386,9 @@ STREAMS_3 = {
     "mod_tx_dx_info": ModTxDxInfo,
     "mod_tx_plan": ModTxPlan,
     "mod_tx_plan_client_prog": ModTxPlanClientProg,
+}
+
+FRIDAY = {
     "mod_tx_plan_info": ModTxPlanInfo,
     "mod_tx_plan_note": ModTxPlanNote,
     "mod_tx_plan_note_addr": ModTxPlanNoteAddr,
@@ -3393,11 +3401,6 @@ STREAMS_3 = {
     "mv_client_dsm5_diag": MvClientDsm5Diag,
     "mv_client_dsm5_diag_dtl": MvClientDsm5DiagDtl,
     "mv_payment": MvPayment,
-}
-
-
-
-STREAMS_4 = {
     "mv_scheduled_activities": MvScheduledActivities,
     "mv_staff": MvStaff,
     "mv_transactions": MvTransactions,
@@ -3423,6 +3426,9 @@ STREAMS_4 = {
     "payer_plan_benefit_fee": PayerPlanBenefitFee,
     "payer_plan_config": PayerPlanConfig,
     "payer_plan_contact": PayerPlanContact,
+}
+
+SATURDAY = {
     "payer_plan_org": PayerPlanOrg,
     "payer_provider": PayerProvider,
     "payment_activity": PaymentActivity,
@@ -3463,8 +3469,7 @@ STREAMS_4 = {
 }
 
 
-
-STREAMS = [REQUIRED_TABLES, STREAMS_1, REQUIRED_TABLES, STREAMS_2, REQUIRED_TABLES, STREAMS_3, STREAMS_4]
+STREAMS = [MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY]
 
 # STREAMS = {
     # "mv_impact_data": MvImpactData,
