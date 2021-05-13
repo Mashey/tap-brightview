@@ -3,7 +3,7 @@ import os
 
 from singer import metadata
 from singer.catalog import Catalog
-from tap_brightview.streams import STREAMS
+from tap_brightview.streams import REQUIRED_TABLES, STREAMS
 
 
 def get_abs_path(path):
@@ -15,7 +15,9 @@ def get_schemas(day):
     schemas = {}
     schemas_metadata = {}
 
-    for stream_name, stream_object in STREAMS[day].items():
+    REQUIRED_TABLES.update(STREAMS[day])
+
+    for stream_name, stream_object in REQUIRED_TABLES.items():
         schema_path = get_abs_path(f"schemas/{stream_name}_schema.json")
         with open(schema_path) as file:
             schema = json.load(file)
