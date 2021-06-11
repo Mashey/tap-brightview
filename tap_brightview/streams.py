@@ -26,6 +26,7 @@ class Stream:
         stream_finished = False
         query_attempts = 1
         restart_count = 0
+        audit_record_count = 0 # Used for Audit Log Massive Table
         json_schema = helper.open_json_schema(self.table_name)
         bookmark_value = singer.get_bookmark(
             self.state,
@@ -59,6 +60,7 @@ class Stream:
                     self.offset += self.limit
                     query_attempts += 1
                     self.response_length = record_count
+                    audit_record_count += record_count
 
                     if self.response_length < self.limit:
                         stream_finished = True
@@ -66,6 +68,14 @@ class Stream:
                         LOGGER.info(f"Creating bookmark for {self.tap_stream_id} stream")
                         client.sql.close()
                         client.client.close()
+                    
+                    if audit_record_count >= 12000000:
+                        stream_finished = True
+                        LOGGER.info(f"{self.table_name} sync completed.")
+                        LOGGER.info(f"Creating bookmark for {self.tap_stream_id} stream")
+                        client.sql.close()
+                        client.client.close()
+                        return
 
             except Exception as e:
                 LOGGER.warning(f"Client error {e} :: Closing SQL and Connection.")
@@ -298,8 +308,8 @@ class AuditLog(IncrementalStream):
     tap_stream_id = "audit_log"
     key_properties = ["audit_log_id"]
     replication_method = "INCREMENTAL"
-    valid_replication_keys = ["last_commit_time"]
-    replication_key = "last_commit_time"
+    valid_replication_keys = ["access_datetime"]
+    replication_key = "access_datetime"
 
 
 class AuditPageTitle(IncrementalStream):
@@ -3468,8 +3478,12 @@ SATURDAY = {
     "tx_plan_grid_sub_prob": TxPlanGridSubProb,
 }
 
+SUNDAY = {
+    "audit_log": AuditLog
+}
 
-STREAMS = [MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY]
+
+STREAMS = [MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY]
 
 # STREAMS = {
     # "mv_impact_data": MvImpactData,
