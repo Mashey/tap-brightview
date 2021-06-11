@@ -69,9 +69,9 @@ class Stream:
                         client.sql.close()
                         client.client.close()
                     
-                    if audit_record_count >= 12000000:
+                    if audit_record_count >= 12000000 and self.table_name == 'audit_log':
                         stream_finished = True
-                        LOGGER.info(f"{self.table_name} sync completed.")
+                        LOGGER.info(f"{self.table_name} sync batched at 12 million+ records.")
                         LOGGER.info(f"Creating bookmark for {self.tap_stream_id} stream")
                         client.sql.close()
                         client.client.close()
