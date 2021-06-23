@@ -3211,6 +3211,7 @@ REQUIRED_TABLES = {
     "claim_item_modifier": ClaimItemModifier,
     "client": Client,
     "client_episode": ClientEpisode,
+    "client_group": ClientGroup,
     "client_payer_plan": ClientPayerPlan,
     "client_program": ClientProgram,
     "descriptor": Descriptor,
@@ -3289,7 +3290,6 @@ MONDAY = {
 
 TUESDAY = {
     "client_episode_prefs": ClientEpisodePrefs,
-    "client_group": ClientGroup,
     "client_guarantor": ClientGuarantor,
     "client_medication": ClientMedication,
     "client_message": ClientMessage,
