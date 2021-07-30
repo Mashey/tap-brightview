@@ -15,7 +15,7 @@ def get_schemas(day):
     schemas = {}
     schemas_metadata = {}
 
-    REQUIRED_TABLES.update(STREAMS[day])
+    # REQUIRED_TABLES.update(STREAMS[day])
 
     for stream_name, stream_object in REQUIRED_TABLES.items():
         schema_path = get_abs_path(f"schemas/{stream_name}_schema.json")
