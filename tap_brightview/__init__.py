@@ -25,7 +25,7 @@ def main():
         start_main_tables = time.perf_counter()
         sync(args.config, args.state, catalog, stream_collection=REQUIRED_TABLES)
         time_lapse = time.perf_counter() - start_main_tables
-        sync(args.config, args.state, catalog, stream_collection=STREAMS[day])
+        # sync(args.config, args.state, catalog, stream_collection=STREAMS[day])
 
         LOGGER.info(f'Main tables synced in {(time_lapse / 60):0.2} minutes')
 
