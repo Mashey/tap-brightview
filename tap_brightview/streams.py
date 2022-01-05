@@ -3196,6 +3196,9 @@ class TxPlanGridSubProb(IncrementalStream):
     replication_key = "last_commit_time"
 
 REQUIRED_TABLES = {
+    "cf_data_hist": CfDataHist,
+    "dsm_diagnosis": DsmDiagnosis,
+    "master_modifier": MasterModifier,
     "activity": Activity,
     "activity_detail": ActivityDetail,
     "activity_log": ActivityLog,
@@ -3318,7 +3321,6 @@ TUESDAY = {
     "document_signature_pad": DocumentSignaturePad,
     "dsm_diag_category": DsmDiagCategory,
     "dsm_diag_category_range": DsmDiagCategoryRange,
-    "dsm_diagnosis": DsmDiagnosis,
     "dyn_hcfa": DynHcfa,
     "edi_270_batch": Edi270Batch,
     "edi_270_detail": Edi270Detail,
@@ -3364,7 +3366,6 @@ WEDNESDAY = {
     "licensure": Licensure,
     "macsis_adm_dis": MacsisAdmDis,
     "macsis_adm_dis_data": MacsisAdmDisData,
-    "master_modifier": MasterModifier,
     "master_modifier_detail": MasterModifierDetail,
     "master_modifier_org_map": MasterModifierOrgMap,
     "measure": Measure,
